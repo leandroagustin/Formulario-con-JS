@@ -1,0 +1,144 @@
+/* Home */
+
+/* HEADER */
+.nav {
+    background-color: $color-blanco;
+}
+/* ARTICLE */
+.section-uno__container {
+    background-image: url(../../imagenes/molino3.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 18rem 3rem;
+    border-radius: 0;
+    height: 735px;
+    .section-uno__h1{
+        font-size: 50px;
+        line-height: 1.2;
+        font-weight: 200;
+    }
+    .section-uno__h1, .section-uno__p{
+        color: $color-hr;
+        padding-top: 30px;
+    }
+    .section-uno__hr {
+        border: 1px solid $color-hr;
+    }
+}
+.section-dos {
+    .section-dos__container {
+        .section-dos__p {
+            align-items: flex-start;
+            text-align: center;
+            font-size: ($font-size * 2) + 1;    
+        }
+    }
+}
+.section-tres {
+    .section-tres__container {
+        .section-tres__content {
+            .section-tres__h1 {
+                margin-top: 40px;
+                font-size: ($font-size * 4) - 3;
+            }
+        }
+    }
+}
+.section-tres__container{
+    background-image: url(../../imagenes/molino4.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 7rem 1rem;
+    border-radius: 0;
+    margin: 0;
+    .section-tres__content {
+        height: 800px; 
+        width: 700px;
+        background-color: $color-sombra; 
+        padding: 20px 40px 30px 40px;
+        .section-tres__h1, .section-tres__p {
+            color: $color-hr;
+            padding-top: 30px;
+            line-height: 2;
+        }
+        .section-tres__h1 {
+            font-size: $font-size * 5;
+            text-align: center;
+        }
+        .section-tres__p {
+            font-size: $font-size + 8;
+            font-weight: 200;
+        }    
+    }
+}
+.section-cuatro {
+    .section-cuatro__container {
+        .section-cuatro__content {
+            .section-cuatro__h1 {
+                padding-top: 60px;
+                font-size: $font-size * 4;
+                font-weight: 400;
+                line-height: 80px;
+                align-self: center;
+                text-align: center;    
+            }
+        }
+    }
+}
+.section-cinco {
+    margin: 60px;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    font-size: $font-size * 2;
+    padding: 0 120px 0 120px;
+    .section-cinco__container {
+        justify-content: center;
+        padding-top: 60px;
+        font-size: $font-size + 4;
+        height: 300px;
+        width: 300px;
+        .section-cinco__content {
+            text-align: center;
+            .section-cinco__svg {
+                height: 55px;
+                width: 100%;
+                @include costados(5);
+            }
+        }
+        .section-cinco__content-dos {
+            padding: 1.25rem;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            .section-cinco__p {
+                text-align: center;
+                line-height: 1.7;
+            }
+        }
+    }
+}
+/* ASIDE */
+.aside {
+    background-color: $color-blanco;
+    .aside__ul {
+        .aside__ul-li {
+            a {
+                font-size: $font-size * 2;
+                transition: transform .3s;
+            }
+            a:hover {
+                transform:scale(1.8);
+            }
+        }
+    }
+}
+
+/* FOOTER */
+.footer {
+    .footer__container {
+        font-size: $font-size;
+        align-items: end;
+        justify-content: end;    
+    }
+}

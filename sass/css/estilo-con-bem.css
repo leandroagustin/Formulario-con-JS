@@ -1,0 +1,476 @@
+@charset "UTF-8";
+/* IMPORT */
+/* Colores */
+/* Bucle each */
+/* INSTRUCCIÓNES BÁSICAS DE MANTENIMIENTO */
+.paso1 {
+  color: #F6F6F6;
+  background-color: rgba(21, 201, 45, 0.705); }
+
+.paso2 {
+  color: #F6F6F6;
+  background-color: rgba(21, 201, 45, 0.705); }
+
+.paso3 {
+  color: #F6F6F6;
+  background-color: rgba(21, 201, 45, 0.705); }
+
+.paso4 {
+  color: #F6F6F6;
+  background-color: rgba(21, 201, 45, 0.705); }
+
+/* Reseteo CSS */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  outline: none;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  font-family: 'Alegreya Sans', sans-serif;
+  font-family: 'Lobster', cursive;
+  font-family: 'Nunito Sans', sans-serif; }
+
+html {
+  height: 101%; }
+
+body {
+  font-size: 62.5%;
+  line-height: 1;
+  font-family: Arial, Tahoma, sans-serif; }
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after, q:before, q:after {
+  content: '';
+  content: none; }
+
+strong {
+  font-weight: bold; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+img {
+  border: 0;
+  max-width: 100%; }
+
+p {
+  font-size: 1.2em;
+  line-height: 1.0em;
+  color: #333; }
+
+/* fin reseteo css */
+/* letras */
+/* Titulos de Index, Energia eolica, Quienes somos, Nuestros productos. */
+.aparecer {
+  animation-name: mianimacion;
+  animation-duration: 5s;
+  animation-timing-function: normal;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  position: relative;
+  padding: 15px 0; }
+
+@keyframes mianimacion {
+  0% {
+    left: 38%;
+    color: #F6F6F6; }
+  10% {
+    color: #F6F6F6; }
+  25% {
+    color: #F6F6F6; }
+  40% {
+    color: #F6F6F6; }
+  50% {
+    color: #F6F6F6; }
+  75% {
+    color: #F6F6F6; }
+  100% {
+    color: #F6F6F6;
+    left: 0; } }
+
+.aparecer2 {
+  animation-name: mianimacion2;
+  animation-duration: 5s;
+  animation-timing-function: normal;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  position: relative;
+  padding: 15px 0; }
+
+@keyframes mianimacion2 {
+  0% {
+    left: 38%;
+    color: #000000; }
+  100% {
+    color: #000000;
+    left: 0; } }
+
+/* Contacto Formulario Titulo*/
+.aparecer3 {
+  animation-name: mianimacion3;
+  animation-duration: 2s;
+  animation-timing-function: normal;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  position: relative;
+  padding: 15px 0; }
+
+@keyframes mianimacion3 {
+  0% {
+    opacity: 0; }
+  20% {
+    opacity: 0.1; }
+  30% {
+    opacity: 0.2; }
+  40% {
+    opacity: 0.4; }
+  50% {
+    opacity: 0.6; }
+  60% {
+    opacity: 0.7; }
+  75% {
+    opacity: 0.8; }
+  85% {
+    opacity: 0.9; }
+  100% {
+    opacity: 1; } }
+
+/* Home */
+/* HEADER */
+.nav {
+  background-color: #F6F6F6; }
+
+/* ARTICLE */
+.section-uno__container {
+  background-image: url(../../imagenes/molino3.jpg);
+  background-position: center;
+  background-size: cover;
+  padding: 18rem 3rem;
+  border-radius: 0;
+  height: 735px; }
+  .section-uno__container .section-uno__h1 {
+    font-size: 50px;
+    line-height: 1.2;
+    font-weight: 200; }
+  .section-uno__container .section-uno__h1, .section-uno__container .section-uno__p {
+    color: aliceblue;
+    padding-top: 30px; }
+  .section-uno__container .section-uno__hr {
+    border: 1px solid aliceblue; }
+
+.section-dos .section-dos__container .section-dos__p {
+  align-items: flex-start;
+  text-align: center;
+  font-size: 25px; }
+
+.section-tres .section-tres__container .section-tres__content .section-tres__h1 {
+  margin-top: 40px;
+  font-size: 45px; }
+
+.section-tres__container {
+  background-image: url(../../imagenes/molino4.jpg);
+  background-position: center;
+  background-size: cover;
+  padding: 7rem 1rem;
+  border-radius: 0;
+  margin: 0; }
+  .section-tres__container .section-tres__content {
+    height: 800px;
+    width: 700px;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px 40px 30px 40px; }
+    .section-tres__container .section-tres__content .section-tres__h1, .section-tres__container .section-tres__content .section-tres__p {
+      color: aliceblue;
+      padding-top: 30px;
+      line-height: 2; }
+    .section-tres__container .section-tres__content .section-tres__h1 {
+      font-size: 60px;
+      text-align: center; }
+    .section-tres__container .section-tres__content .section-tres__p {
+      font-size: 20px;
+      font-weight: 200; }
+
+.section-cuatro .section-cuatro__container .section-cuatro__content .section-cuatro__h1 {
+  padding-top: 60px;
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 80px;
+  align-self: center;
+  text-align: center; }
+
+.section-cinco {
+  margin: 60px;
+  align-items: center;
+  justify-content: space-around;
+  text-align: center;
+  font-size: 24px;
+  padding: 0 120px 0 120px; }
+  .section-cinco .section-cinco__container {
+    justify-content: center;
+    padding-top: 60px;
+    font-size: 16px;
+    height: 300px;
+    width: 300px; }
+    .section-cinco .section-cinco__container .section-cinco__content {
+      text-align: center; }
+      .section-cinco .section-cinco__container .section-cinco__content .section-cinco__svg {
+        height: 55px;
+        width: 100%;
+        padding-top: 5px; }
+    .section-cinco .section-cinco__container .section-cinco__content-dos {
+      padding: 1.25rem;
+      display: flex;
+      flex-direction: row;
+      align-items: center; }
+      .section-cinco .section-cinco__container .section-cinco__content-dos .section-cinco__p {
+        text-align: center;
+        line-height: 1.7; }
+
+/* ASIDE */
+.aside {
+  background-color: #F6F6F6; }
+  .aside .aside__ul .aside__ul-li a {
+    font-size: 24px;
+    transition: transform .3s; }
+  .aside .aside__ul .aside__ul-li a:hover {
+    transform: scale(1.8); }
+
+/* FOOTER */
+.footer .footer__container {
+  font-size: 12px;
+  align-items: end;
+  justify-content: end; }
+
+/* Energía Eólica*/
+/* HEADER */
+.nav {
+  background-color: #F6F6F6; }
+
+/* ARTICLE */
+/* Carousel */
+.seccionee-uno .seccionee-uno__container .seccionee-uno__content .seccionee-uno__content1 .seccionee-uno__content2 .seccionee-uno__h5 {
+  font-size: 40px;
+  padding-bottom: 10px; }
+
+.seccionee-uno .seccionee-uno__container .seccionee-uno__content .seccionee-uno__content1 .seccionee-uno__content2 .seccionee-uno__p {
+  font-size: 20px;
+  padding-bottom: 40px; }
+
+.seccionee-uno .seccionee-uno__container .seccionee-uno__content .seccionee-uno__content1 .seccionee-uno__img {
+  height: 735px; }
+
+.sectionee-dos .sectionee-dos__container .sectionee-dos__container2 {
+  padding: 10px 15px 10px 15px; }
+  .sectionee-dos .sectionee-dos__container .sectionee-dos__container2 .sectionee-dos__img {
+    height: 500px;
+    width: 1400px;
+    object-fit: fill; }
+
+.sectionee-dos .sectionee-dos__container .sectionee-dos__content .sectionee-dos__h2, .sectionee-dos .sectionee-dos__container .sectionee-dos__content .sectionee-dos__span {
+  font-size: small; }
+
+.sectionee-dos .sectionee-dos__container .sectionee-dos__content .sectionee-dos__p {
+  padding: 20px;
+  align-self: center;
+  font-size: 25px;
+  line-height: 1;
+  height: 510px;
+  background-color: #F6F6F6; }
+
+.sectionee-tres .sectionee-tres__container {
+  font-size: 16px; }
+
+/* ASIDE */
+.aside {
+  background-color: #F6F6F6; }
+  .aside .aside__ul .aside__ul-li a {
+    font-size: 24px;
+    transition: transform .3s; }
+  .aside .aside__ul .aside__ul-li a:hover {
+    transform: scale(1.8); }
+
+/* FOOTER */
+.footer .footer__container {
+  font-size: 12px;
+  align-items: end;
+  justify-content: end; }
+
+/* Nuestros Productos */
+/* HEADER */
+.nav {
+  background-color: #F6F6F6; }
+
+/* ARTICLE */
+.sectionnp-uno .sectionnp-uno__container {
+  background-image: url(../../imagenes/nu-productos.jpg);
+  background-position: center;
+  background-size: cover;
+  background-position: top;
+  padding: 18rem 3rem;
+  color: #ffffff;
+  border-radius: 0;
+  height: 735px; }
+
+.sectionnp-uno .sectionnp-uno__p {
+  color: #ffffff; }
+
+.sectionnp-dos .sectionnp-dos__container {
+  margin: 20px;
+  padding: 30px; }
+  .sectionnp-dos .sectionnp-dos__container .sectionnp-dos__container-ul {
+    display: flex;
+    justify-content: space-evenly; }
+    .sectionnp-dos .sectionnp-dos__container .sectionnp-dos__container-ul .sectionnp-dos__ul {
+      margin-top: 90px; }
+
+.sectionnp-tres .sectionnp-tres__container {
+  margin: 20px;
+  padding: 30px; }
+  .sectionnp-tres .sectionnp-tres__container .sectionnp-tres__container-ul {
+    display: flex;
+    justify-content: space-evenly; }
+    .sectionnp-tres .sectionnp-tres__container .sectionnp-tres__container-ul .sectionnp-tres__ul {
+      margin-top: 90px; }
+
+.sectionnp-cuatro .sectionnp-cuatro__container {
+  margin: 20px;
+  padding: 30px; }
+
+/* ASIDE */
+.aside {
+  background-color: #F6F6F6; }
+  .aside .aside__ul .aside__ul-li a {
+    font-size: 24px;
+    transition: transform .3s; }
+  .aside .aside__ul .aside__ul-li a:hover {
+    transform: scale(1.8); }
+
+/* FOOTER */
+.footer .footer__container {
+  font-size: 12px;
+  align-items: end;
+  justify-content: end; }
+
+/* Quienes Somos*/
+/* HEADER */
+.nav {
+  background-color: #F6F6F6; }
+
+/* ARTICLE */
+.sectionq1 .sectionq1__container {
+  background-image: url(../../imagenes/quienes-somos.jpg);
+  background-position: center;
+  background-size: cover;
+  padding: 18rem 3rem;
+  border-radius: 0;
+  height: 735px; }
+
+.sectionq2 {
+  padding: 60px 0 60px 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly; }
+  .sectionq2 .sectionq2__container {
+    height: 700px; }
+    .sectionq2 .sectionq2__container .sectionq2__img {
+      display: flex;
+      margin: auto;
+      object-fit: cover; }
+    .sectionq2 .sectionq2__container .sectionq2__h2 {
+      text-align: center;
+      font-size: xx-large;
+      font-family: italic;
+      padding: 60px 0 60px 0; }
+    .sectionq2 .sectionq2__container .sectionq2__p {
+      text-align: center;
+      font-family: italic;
+      background-color: rgba(160, 160, 160, 0.1);
+      font-size: 20px;
+      padding: 30px 40px 30px 40px; }
+
+/* ASIDE */
+.aside {
+  background-color: #F6F6F6; }
+  .aside .aside__ul .aside__ul-li a {
+    font-size: 24px;
+    transition: transform .3s; }
+  .aside .aside__ul .aside__ul-li a:hover {
+    transform: scale(1.8); }
+
+/* FOOTER */
+.footer .footer__container {
+  font-size: 12px;
+  align-items: end;
+  justify-content: end; }
+
+/* Contacto */
+/* HEADER */
+.nav {
+  background-color: #F6F6F6; }
+
+/* ARTICLE */
+/* Formulario */
+.sectionc1 {
+  background-image: url(../../imagenes/contacto.jpg);
+  background-position: center;
+  background-size: cover;
+  padding: 8rem 3rem;
+  border-radius: 0;
+  height: 783px; }
+  .sectionc1 .sectionc1__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+    .sectionc1 .sectionc1__container .sectionc1__p {
+      font-size: 30px;
+      background: rgba(160, 160, 160, 0.1);
+      padding: 8px;
+      border: 1px solid #afafaf;
+      margin: 30px 0 30px 0; }
+    .sectionc1 .sectionc1__container .sectionc1__form {
+      background-color: #F6F6F6;
+      padding: 20px;
+      margin: 40px 0 40px 0; }
+
+.sectionc2 {
+  background-color: #eeeeee;
+  padding-top: 30px; }
+  .sectionc2 .sectionc2__content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center; }
+    .sectionc2 .sectionc2__content .sectionc2__content-div {
+      padding: 40px;
+      text-align: center; }
+      .sectionc2 .sectionc2__content .sectionc2__content-div .sectionc2__divs {
+        padding: 10px; }
+
+/* ASIDE */
+.aside {
+  background-color: #F6F6F6; }
+  .aside .aside__ul .aside__ul-li a {
+    font-size: 24px;
+    transition: transform .3s; }
+  .aside .aside__ul .aside__ul-li a:hover {
+    transform: scale(1.8); }
+
+/* FOOTER */
+.footer .footer__container {
+  font-size: 12px;
+  align-items: end;
+  justify-content: end; }

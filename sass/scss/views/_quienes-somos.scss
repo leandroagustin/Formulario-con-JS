@@ -1,0 +1,70 @@
+/* Quienes Somos*/
+
+/* HEADER */
+.nav {
+    background-color: $color-blanco;
+}
+
+/* ARTICLE */
+.sectionq1 {
+    .sectionq1__container {
+    background-image: url(../../imagenes/quienes-somos.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 18rem 3rem;
+    border-radius: 0;
+    height: 735px;
+    }
+}
+.sectionq2 {
+    padding: 60px 0 60px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    .sectionq2__container{
+        height: 700px;
+        .sectionq2__img {
+            display: flex;
+            margin: auto;
+            object-fit: cover;
+        }
+        .sectionq2__h2 {
+            text-align: center;
+            font-size: xx-large;
+            font-family: italic;
+            padding: 60px 0 60px 0;
+        }
+        .sectionq2__p {
+            text-align: center;
+            font-family: italic;
+            background-color: rgba(160, 160, 160, 0.1);
+            font-size: 20px; 
+            padding: 30px 40px 30px 40px;
+        }
+    }
+}
+
+/* ASIDE */
+.aside {
+    background-color: $color-blanco;
+    .aside__ul {
+        .aside__ul-li {
+            a {
+                font-size: $font-size * 2;
+                transition: transform .3s;
+            }
+            a:hover {
+                transform:scale(1.8);
+            }
+        }
+    }
+}
+
+/* FOOTER */
+.footer {
+    .footer__container {
+        font-size: $font-size;
+        align-items: end;
+        justify-content: end;    
+    }
+}

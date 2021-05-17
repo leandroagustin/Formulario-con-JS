@@ -1,0 +1,93 @@
+/* Titulos de Index, Energia eolica, Quienes somos, Nuestros productos. */
+.aparecer {
+    animation-name: mianimacion;
+    animation-duration: 5s;
+    animation-timing-function: normal;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    position: relative;
+    padding: 15px 0;
+}
+@keyframes mianimacion {
+    0% {
+        left: 38%;
+        color: $color-blanco;
+    }
+    10%{
+        color: $color-blanco;
+    }
+    25% {
+        color: $color-blanco;
+    }
+    40% {
+        color: $color-blanco;
+    }
+    50% {
+        color: $color-blanco;
+    }
+    75% {
+    color: $color-blanco;
+    }
+    100% {
+        color:$color-blanco;
+        left: 0;
+    }
+}
+.aparecer2 {
+    animation-name: mianimacion2;
+    animation-duration: 5s;
+    animation-timing-function: normal;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    position: relative;
+    padding: 15px 0;
+}
+@keyframes mianimacion2 {
+    0% {
+        left: 38%;
+        color: $color-negro;
+    }
+    100% {
+        color: $color-negro;
+        left: 0;
+    }
+}
+/* Contacto Formulario Titulo*/
+    .aparecer3 {
+    animation-name: mianimacion3;
+    animation-duration: 2s;
+    animation-timing-function: normal;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    position: relative;
+    padding: 15px 0;
+}
+@keyframes mianimacion3 {
+    0% {
+        opacity: 0;
+    }
+    20% {
+        opacity: 0.1;
+    }
+    30%{
+        opacity: 0.2;
+    }
+    40% {
+        opacity: 0.4;
+    }
+    50% {
+        opacity: 0.6;
+    }
+    60%{
+        opacity: 0.7;
+    }
+    75% {
+        opacity: 0.8;
+    }
+    85%{
+        opacity: 0.9;
+    }
+    100% {
+        opacity: 1;
+    }
+}
