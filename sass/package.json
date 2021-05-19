@@ -1,14 +1,14 @@
 {
   "name": "mi-sitio-web",
   "version": "1.0.0",
-  "description": "",
+  "description": "Somos emprendedores en energías renovables especializados en instalaciones e información sobre energías renovables y equipamiento",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build-css": "node-sass --include-path scss scss/main.scss css/estilo-con-bem.css",
     "watch-css": "nodemon -e scss -x \"npm run build-css\""
   },
-  "author": "leandro",
+  "author": "leandro agustin mena",
   "license": "ISC",
   "devDependencies": {
     "node-sass": "^5.0.0",

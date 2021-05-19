@@ -6,59 +6,43 @@
 }
 
 /* ARTICLE */
-
 /* Carousel */
-.seccionee-uno {
-    .seccionee-uno__container {
-        .seccionee-uno__content {
-            .seccionee-uno__content1 {
-                .seccionee-uno__content2 {
-                    .seccionee-uno__h5 {
-                        font-size: 40px;
-                        padding-bottom: 10px;
-                    }
-                    .seccionee-uno__p {
-                        font-size:20px;
-                        padding-bottom: 40px;
-                    }
-                }
-                .seccionee-uno__img {
-                    height: 735px;
-                }
-            }
+.seccionee-uno__h5 {
+    font-size: 40px;
+    padding-bottom: 10px;
+}
+.seccionee-uno__p {
+    font-size:20px;
+    padding-bottom: 40px;
+}
+.seccionee-uno__img {
+            height: 735px;
         }
+
+
+
+.sectionee-dos__container2 {
+    padding: 10px 15px 10px 15px;
+    .sectionee-dos__img {
+        height: 500px;
+        width: 1400px;
+        object-fit: fill;
     }
+}
+.sectionee-dos__h2, .sectionee-dos__span{
+    font-size:small;
+}
+.sectionee-dos__p {
+    padding: 20px;
+    align-self: center;
+    font-size:25px;
+    line-height: 1;
+    height: 510px;
+    background-color: #F6F6F6;
 }
 
-.sectionee-dos {
-    .sectionee-dos__container {
-        .sectionee-dos__container2 {
-            padding: 10px 15px 10px 15px;
-            .sectionee-dos__img {
-                height: 500px;
-                width: 1400px;
-                object-fit: fill;
-            }
-        }
-        .sectionee-dos__content {
-            .sectionee-dos__h2, .sectionee-dos__span{
-                font-size:small;
-            }
-            .sectionee-dos__p {
-                padding: 20px;
-                align-self: center;
-                font-size:25px;
-                line-height: 1;
-                height: 510px;
-                background-color: #F6F6F6;
-            }
-        }
-    }
-}
-.sectionee-tres {
-    .sectionee-tres__container {
-        font-size:16px;
-    }
+.sectionee-tres__container {
+    font-size:16px;
 }
 /* ASIDE */
 .aside {
@@ -77,10 +61,8 @@
 }
 
 /* FOOTER */
-.footer {
-    .footer__container {
-        font-size: $font-size;
-        align-items: end;
-        justify-content: end;    
-    }
+.footer__container {
+    font-size: $font-size;
+    align-items: end;
+    justify-content: end;    
 }

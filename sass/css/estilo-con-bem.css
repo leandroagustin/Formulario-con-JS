@@ -74,6 +74,8 @@ p {
 
 /* fin reseteo css */
 /* letras */
+/* index */
+/* nuestros productos */
 /* Titulos de Index, Energia eolica, Quienes somos, Nuestros productos. */
 .aparecer {
   animation-name: mianimacion;
@@ -172,14 +174,10 @@ p {
   .section-uno__container .section-uno__hr {
     border: 1px solid aliceblue; }
 
-.section-dos .section-dos__container .section-dos__p {
+.section-dos__p {
   align-items: flex-start;
   text-align: center;
   font-size: 25px; }
-
-.section-tres .section-tres__container .section-tres__content .section-tres__h1 {
-  margin-top: 40px;
-  font-size: 45px; }
 
 .section-tres__container {
   background-image: url(../../imagenes/molino4.jpg);
@@ -193,18 +191,18 @@ p {
     width: 700px;
     background-color: rgba(0, 0, 0, 0.5);
     padding: 20px 40px 30px 40px; }
+    .section-tres__container .section-tres__content .section-tres__h1 {
+      margin-top: 50px;
+      font-size: 48px;
+      text-align: center; }
     .section-tres__container .section-tres__content .section-tres__h1, .section-tres__container .section-tres__content .section-tres__p {
       color: aliceblue;
-      padding-top: 30px;
+      padding-top: 35px;
       line-height: 2; }
-    .section-tres__container .section-tres__content .section-tres__h1 {
-      font-size: 60px;
-      text-align: center; }
     .section-tres__container .section-tres__content .section-tres__p {
-      font-size: 20px;
-      font-weight: 200; }
+      font-size: 20px; }
 
-.section-cuatro .section-cuatro__container .section-cuatro__content .section-cuatro__h1 {
+.section-cuatro__h1 {
   padding-top: 60px;
   font-size: 48px;
   font-weight: 400;
@@ -250,7 +248,7 @@ p {
     transform: scale(1.3); }
 
 /* FOOTER */
-.footer .footer__container {
+.footer__container {
   font-size: 12px;
   align-items: end;
   justify-content: end; }
@@ -262,28 +260,28 @@ p {
 
 /* ARTICLE */
 /* Carousel */
-.seccionee-uno .seccionee-uno__container .seccionee-uno__content .seccionee-uno__content1 .seccionee-uno__content2 .seccionee-uno__h5 {
+.seccionee-uno__h5 {
   font-size: 40px;
   padding-bottom: 10px; }
 
-.seccionee-uno .seccionee-uno__container .seccionee-uno__content .seccionee-uno__content1 .seccionee-uno__content2 .seccionee-uno__p {
+.seccionee-uno__p {
   font-size: 20px;
   padding-bottom: 40px; }
 
-.seccionee-uno .seccionee-uno__container .seccionee-uno__content .seccionee-uno__content1 .seccionee-uno__img {
+.seccionee-uno__img {
   height: 735px; }
 
-.sectionee-dos .sectionee-dos__container .sectionee-dos__container2 {
+.sectionee-dos__container2 {
   padding: 10px 15px 10px 15px; }
-  .sectionee-dos .sectionee-dos__container .sectionee-dos__container2 .sectionee-dos__img {
+  .sectionee-dos__container2 .sectionee-dos__img {
     height: 500px;
     width: 1400px;
     object-fit: fill; }
 
-.sectionee-dos .sectionee-dos__container .sectionee-dos__content .sectionee-dos__h2, .sectionee-dos .sectionee-dos__container .sectionee-dos__content .sectionee-dos__span {
+.sectionee-dos__h2, .sectionee-dos__span {
   font-size: small; }
 
-.sectionee-dos .sectionee-dos__container .sectionee-dos__content .sectionee-dos__p {
+.sectionee-dos__p {
   padding: 20px;
   align-self: center;
   font-size: 25px;
@@ -291,7 +289,7 @@ p {
   height: 510px;
   background-color: #F6F6F6; }
 
-.sectionee-tres .sectionee-tres__container {
+.sectionee-tres__container {
   font-size: 16px; }
 
 /* ASIDE */
@@ -304,7 +302,7 @@ p {
     transform: scale(1.3); }
 
 /* FOOTER */
-.footer .footer__container {
+.footer__container {
   font-size: 12px;
   align-items: end;
   justify-content: end; }
@@ -315,7 +313,7 @@ p {
   background-color: #F6F6F6; }
 
 /* ARTICLE */
-.sectionnp-uno .sectionnp-uno__container {
+.sectionnp-uno__container {
   background-image: url(../../imagenes/nu-productos.jpg);
   background-position: center;
   background-size: cover;
@@ -325,30 +323,30 @@ p {
   border-radius: 0;
   height: 735px; }
 
-.sectionnp-uno .sectionnp-uno__p {
+.sectionnp-uno__p {
   color: #ffffff; }
 
-.sectionnp-dos .sectionnp-dos__container {
-  margin: 20px;
-  padding: 30px; }
-  .sectionnp-dos .sectionnp-dos__container .sectionnp-dos__container-ul {
+.sectionnp-dos__container {
+  margin: 25px;
+  padding: 25px; }
+  .sectionnp-dos__container .sectionnp-dos__container-ul {
     display: flex;
     justify-content: space-evenly; }
-    .sectionnp-dos .sectionnp-dos__container .sectionnp-dos__container-ul .sectionnp-dos__ul {
+    .sectionnp-dos__container .sectionnp-dos__container-ul .sectionnp-dos__ul {
       margin-top: 90px; }
 
-.sectionnp-tres .sectionnp-tres__container {
-  margin: 20px;
-  padding: 30px; }
-  .sectionnp-tres .sectionnp-tres__container .sectionnp-tres__container-ul {
+.sectionnp-tres__container {
+  margin: 25px;
+  padding: 25px; }
+  .sectionnp-tres__container .sectionnp-tres__container-ul {
     display: flex;
     justify-content: space-evenly; }
-    .sectionnp-tres .sectionnp-tres__container .sectionnp-tres__container-ul .sectionnp-tres__ul {
+    .sectionnp-tres__container .sectionnp-tres__container-ul .sectionnp-tres__ul {
       margin-top: 90px; }
 
-.sectionnp-cuatro .sectionnp-cuatro__container {
-  margin: 20px;
-  padding: 30px; }
+.sectionnp-cuatro__container {
+  margin: 25px;
+  padding: 25px; }
 
 /* ASIDE */
 .aside {
@@ -360,7 +358,7 @@ p {
     transform: scale(1.3); }
 
 /* FOOTER */
-.footer .footer__container {
+.footer__container {
   font-size: 12px;
   align-items: end;
   justify-content: end; }
@@ -371,7 +369,7 @@ p {
   background-color: #F6F6F6; }
 
 /* ARTICLE */
-.sectionq1 .sectionq1__container {
+.sectionq1__container {
   background-image: url(../../imagenes/quienes-somos.jpg);
   background-position: center;
   background-size: cover;
@@ -412,7 +410,7 @@ p {
     transform: scale(1.3); }
 
 /* FOOTER */
-.footer .footer__container {
+.footer__container {
   font-size: 12px;
   align-items: end;
   justify-content: end; }
@@ -470,7 +468,7 @@ p {
     transform: scale(1.3); }
 
 /* FOOTER */
-.footer .footer__container {
+.footer__container {
   font-size: 12px;
   align-items: end;
   justify-content: end; }

@@ -6,15 +6,13 @@
 }
 
 /* ARTICLE */
-.sectionq1 {
-    .sectionq1__container {
+.sectionq1__container {
     background-image: url(../../imagenes/quienes-somos.jpg);
     background-position: center;
     background-size: cover;
     padding: 18rem 3rem;
     border-radius: 0;
     height: 735px;
-    }
 }
 .sectionq2 {
     padding: 60px 0 60px 0;
@@ -61,10 +59,8 @@
 }
 
 /* FOOTER */
-.footer {
-    .footer__container {
-        font-size: $font-size;
-        align-items: end;
-        justify-content: end;    
-    }
+.footer__container {
+    font-size: $font-size;
+    align-items: end;
+    justify-content: end;    
 }

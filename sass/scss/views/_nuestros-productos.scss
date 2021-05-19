@@ -4,52 +4,45 @@
     background-color: $color-blanco;
 }
 /* ARTICLE */
-.sectionnp-uno {
-    .sectionnp-uno__container {
-        background-image: url(../../imagenes/nu-productos.jpg);
-        background-position: center;
-        background-size: cover;
-        background-position:top;
-        padding: 18rem 3rem;
-        color: #ffffff;
-        border-radius: 0;
-        height: 735px;
-    }
-    .sectionnp-uno__p {
-            color: #ffffff;
-    }
+
+.sectionnp-uno__container {
+    background-image: url(../../imagenes/nu-productos.jpg);
+    background-position: center;
+    background-size: cover;
+    background-position:top;
+    padding: 18rem 3rem;
+    color: #ffffff;
+    border-radius: 0;
+    height: 735px;
 }
-.sectionnp-dos {
-    .sectionnp-dos__container {
-        margin: 20px;
-        padding: 30px;
-        .sectionnp-dos__container-ul {
-            display: flex;
-            justify-content: space-evenly;
-            .sectionnp-dos__ul {
-                margin-top: 90px;
-            }
+.sectionnp-uno__p {
+    color: #ffffff;
+}
+
+.sectionnp-dos__container {
+    @include separacion(25);
+    .sectionnp-dos__container-ul {
+        display: flex;
+        justify-content: space-evenly;
+        .sectionnp-dos__ul {
+            margin-top: 90px;
         }
     }
 }
-.sectionnp-tres {
-    .sectionnp-tres__container {
-        margin: 20px;
-        padding: 30px;
-        .sectionnp-tres__container-ul {
-            display: flex;
-            justify-content: space-evenly;
-            .sectionnp-tres__ul {
-                margin-top: 90px;
-            }
+
+.sectionnp-tres__container {
+    @include separacion(25);
+    .sectionnp-tres__container-ul {
+        display: flex;
+        justify-content: space-evenly;
+        .sectionnp-tres__ul {
+            margin-top: 90px;
         }
     }
 }
-.sectionnp-cuatro {
-    .sectionnp-cuatro__container {
-        margin: 20px;
-        padding: 30px;
-    }
+
+.sectionnp-cuatro__container {
+    @include separacion(25);
 }
 
 /* ASIDE */
@@ -69,10 +62,8 @@
 }
 
 /* FOOTER */
-.footer {
-    .footer__container {
-        font-size: $font-size;
-        align-items: end;
-        justify-content: end;    
-    }
+.footer__container {
+    font-size: $font-size;
+    align-items: end;
+    justify-content: end;    
 }

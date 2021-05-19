@@ -1,3 +1,6 @@
-@mixin costados ($lyr){
-    padding-top: $lyr + px;
+/* index */
+/* nuestros productos */ 
+@mixin separacion ($myp){
+    margin: $myp + px;
+    padding: $myp + px;
 }
