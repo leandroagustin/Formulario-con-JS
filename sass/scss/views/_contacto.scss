@@ -10,7 +10,7 @@
     background-image: url(../../imagenes/contacto.jpg);
     background-position: center;
     background-size: cover;
-    padding: 8rem 3rem;
+    padding: 2rem 3rem;
     border-radius: 0;
     height: 783px;
     .sectionc1__container {
@@ -22,12 +22,15 @@
             background: rgba(160, 160, 160, 0.1);
             padding: 8px;
             border: 1px solid #afafaf;
-            margin: 30px 0 30px 0;
+            margin: 10px 0 10px 0;
         }
         .sectionc1__form {
             background-color: #F6F6F6;
             padding: 20px;
             margin: 40px 0 40px 0;
+        }
+        .sectionc1__textarea {
+            resize:none;
         }
     }
 }
