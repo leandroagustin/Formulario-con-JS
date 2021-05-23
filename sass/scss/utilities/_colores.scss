@@ -12,7 +12,8 @@ $color-negro: #000000;
 
 @each $pasos in paso1, paso2, paso3, paso4 {
     .#{$pasos} {
-        color: $color-blanco;
-        background-color: $color-verde;
+        color: #132c33;
+        font-size: $font-size + 2;
+        padding: 10px 0;
     }
 }

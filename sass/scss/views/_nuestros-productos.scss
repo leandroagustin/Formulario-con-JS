@@ -60,6 +60,16 @@
         text-align: center;
     }
 }
+.sectionnp-cuatro {
+    justify-content: center;
+}
+.sectionnp-cuatro__container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: 500px;
+    width: 500px;
+}
 .sectionnp-dos__container-2 {
     justify-content:space-evenly;
     .sectionnp-dos__content {
@@ -103,6 +113,9 @@
 
 .sectionnp-cuatro__container {
     @include separacion(25);
+    .sectionnp-cuatro__ol {
+        border-radius: 15px;
+    }
 }
 
 

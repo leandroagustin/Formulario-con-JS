@@ -1,23 +1,28 @@
 @charset "UTF-8";
 /* IMPORT */
+/* letras */
 /* Colores */
 /* Bucle each */
 /* INSTRUCCIÓNES BÁSICAS DE MANTENIMIENTO */
 .paso1 {
-  color: #F6F6F6;
-  background-color: rgba(21, 201, 45, 0.705); }
+  color: #132c33;
+  font-size: 14px;
+  padding: 10px 0; }
 
 .paso2 {
-  color: #F6F6F6;
-  background-color: rgba(21, 201, 45, 0.705); }
+  color: #132c33;
+  font-size: 14px;
+  padding: 10px 0; }
 
 .paso3 {
-  color: #F6F6F6;
-  background-color: rgba(21, 201, 45, 0.705); }
+  color: #132c33;
+  font-size: 14px;
+  padding: 10px 0; }
 
 .paso4 {
-  color: #F6F6F6;
-  background-color: rgba(21, 201, 45, 0.705); }
+  color: #132c33;
+  font-size: 14px;
+  padding: 10px 0; }
 
 /* Reseteo CSS */
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
@@ -71,7 +76,6 @@ p {
   color: #333; }
 
 /* fin reseteo css */
-/* letras */
 /* index */
 /* nuestros productos */
 /* Titulos de Index, Energia eolica, Quienes somos, Nuestros productos. */
@@ -431,6 +435,16 @@ body {
     align-self: center;
     text-align: center; }
 
+.sectionnp-cuatro {
+  justify-content: center; }
+
+.sectionnp-cuatro__container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  height: 500px;
+  width: 500px; }
+
 .sectionnp-dos__container-2 {
   justify-content: space-evenly; }
   .sectionnp-dos__container-2 .sectionnp-dos__content {
@@ -468,6 +482,8 @@ body {
 .sectionnp-cuatro__container {
   margin: 25px;
   padding: 25px; }
+  .sectionnp-cuatro__container .sectionnp-cuatro__ol {
+    border-radius: 15px; }
 
 /* Quienes Somos*/
 /* ARTICLE */
