@@ -1,7 +1,5 @@
 /* Nuestros Productos */
-/* HEADER */
-/* ARTICLE 
-
+/* ARTICLE */
 .sectionnp-uno__container {
     background-image: url(../../imagenes/nu-productos.jpg);
     background-position: center;
@@ -12,9 +10,15 @@
     border-radius: 0;
     height: 735px;
 }
-.sectionnp-uno__p {
+.sectionnp-uno__h1 {
     color: #ffffff;
+    font-size: 50px;
+    line-height: 1.2;
+    font-weight: 200;
 }
+.sectionnp__hr {
+        border: 1px solid $color-hr;
+    }
 
 .sectionnp-dos__container {
     @include separacion(25);
@@ -23,7 +27,17 @@
         justify-content: space-evenly;
         .sectionnp-dos__ul {
             margin-top: 90px;
+            width: 300px;
+            height: 300px;
         }
+    }
+    .sectionnp-dos__h1 {
+        color: #000000;
+        font-size: ($font-size * 3) + 4;
+        font-weight: 300;
+        line-height: 80px;
+        align-self: center;
+        text-align: center;
     }
 }
 
@@ -36,32 +50,59 @@
             margin-top: 90px;
         }
     }
+    .sectionnp-tres__h1 {
+        color: #000000;
+        padding-top: 55px;
+        font-size: ($font-size * 3) + 4;
+        font-weight: 300;
+        line-height: 80px;
+        align-self: center;
+        text-align: center;
+    }
+}
+.sectionnp-dos__container-2 {
+    justify-content:space-evenly;
+    .sectionnp-dos__content {
+        background-color: #51c4d3;
+        border: 2px solid #51c4d3;
+        border-radius: 15px;
+        transition: all 0.3s;
+    }
+    .sectionnp-dos__content:hover {
+        transform: translateY(-4%);
+    }
+}
+.sectionnp-dos__div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 320px;
+    width: 320px;
+    text-align: center;
+    .sectionnp-dos__span {
+        color: #126e82;
+        .sectionnp-dos__i {
+            font-size: 40px;
+            height: 55px;
+            width: 100%;
+            padding-top: 5px;
+        }
+    }
+    .sectionnp-dos__p {
+        font-size: $font-size + 3;
+        padding: 5px 0;
+    }
+    .sectionnp-dos__h5 {
+        font-size: $font-size * 2;
+    }
+}
+.sectionnp__hr{
+    border-bottom: 2px solid #126e82;
+    width: 5%;
 }
 
 .sectionnp-cuatro__container {
     @include separacion(25);
 }
 
-/* ASIDE 
-.aside {
-    background-color: $color-blanco;
-    .aside__ul {
-        .aside__ul-li {
-            a {
-                font-size: $font-size * 2;
-                transition: transform .3s;
-            }
-            a:hover {
-                transform:scale(1.3);
-            }
-        }
-    }
-}
 
-/* FOOTER 
-.footer__container {
-    font-size: $font-size;
-    align-items: end;
-    justify-content: end;    
-}
-*/

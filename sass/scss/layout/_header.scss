@@ -1,0 +1,31 @@
+body {
+    background-color: #ffffff;
+}
+/* HEADER */
+.nav {
+    background-color: #126e82;
+    .nav__svg {
+        color: #ffffff;
+        margin: 0 10px;
+    }
+    .nav__a--size {
+        font-size: $font-size + 9;
+        color: #ffffff;
+    }
+}
+
+.nav__a {
+    color: #ffffff;
+    font-size: $font-size + 4;
+    margin: 10px 10px;
+    padding: 10px 10px;
+    transition: all 0.3s;
+}
+.nav__a:hover {
+    color:#51c4d3;
+}
+.nav__ul {
+    margin: 0 10px;
+    text-align: center;
+    align-items: center;
+}

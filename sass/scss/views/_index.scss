@@ -1,35 +1,3 @@
-/* Home */
-body {
-    background-color: #ffffff;
-}
-/* HEADER */
-.nav {
-    background-color: #126e82;
-    .nav__svg {
-        color: #ffffff;
-        margin: 0 10px;
-    }
-    .nav__a--size {
-        font-size: $font-size + 9;
-        color: #ffffff;
-    }
-}
-
-.nav__a {
-    color: #ffffff;
-    font-size: $font-size + 4;
-    margin: 10px 10px;
-    padding: 10px 10px;
-    transition: all 0.3s;
-}
-.nav__a:hover {
-    color:#51c4d3;
-}
-.nav__ul {
-    margin: 0 10px;
-    text-align: center;
-    align-items: center;
-}
 /* ARTICLE */
 .section-uno__container {
     background-image: url(../../imagenes/molino3.jpg);
@@ -39,16 +7,16 @@ body {
     border-radius: 0;
     height: 735px;
     .section-uno__h1{
+        color: #ffffff;
         font-size: 50px;
         line-height: 1.2;
         font-weight: 200;
     }
-    .section-uno__h1, .section-uno__p{
-        color: $color-hr;
-        padding-top: 30px;
-    }
     .section-uno__hr {
         border: 1px solid $color-hr;
+    }
+    .section-uno__p {
+        color: #ffffff;
     }
 }
 .section-dos__p {
@@ -144,40 +112,6 @@ body {
             .section-cinco__p:hover{
                 color: #51c4d3;
             }
-        }
-    }
-}
-/* ASIDE */
-.aside {
-    background-color: #126e82;
-    .aside__h1 {
-        color: #51c4d3;
-    }
-    .aside__ul-li {
-        a {
-            color: #51c4d3;
-            font-size: $font-size * 2;
-            transition: transform .3s;
-        }
-        a:hover {
-            transform:scale(1.3)
-        }
-    }
-}
-
-/* FOOTER */
-.footer {
-    background-color: #126e82;
-    .footer__container {
-        color: #d8e3e7;
-        font-size: $font-size;
-        align-items: end;
-        justify-content: end;
-        .footer__h5 {
-            text-align: center;
-        }
-        .footer__h6 {
-            text-align: end;
         }
     }
 }
