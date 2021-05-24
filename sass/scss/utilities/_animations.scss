@@ -91,3 +91,39 @@
         opacity: 1;
     }
 }
+
+/* Molino */
+
+.sectionnp-cuatro__molino1 {
+    display: block;
+    width: 200px;
+    height: 200px;
+    margin: -134px -781px;
+    animation: rotating 6s linear infinite;
+    position: absolute;
+}
+@keyframes rotating {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.sectionnp-cuatro__molino2 {
+    display: block;
+    width: 120px;
+    height: 120px;
+    margin: -161px -687px;
+    animation: rotating 6s linear infinite;
+    position: absolute;
+}
+@keyframes rotating {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}

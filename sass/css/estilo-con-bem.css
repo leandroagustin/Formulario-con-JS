@@ -5,24 +5,28 @@
 /* Bucle each */
 /* INSTRUCCIÓNES BÁSICAS DE MANTENIMIENTO */
 .paso1 {
-  color: #132c33;
+  color: #ffffff;
   font-size: 14px;
-  padding: 10px 0; }
+  padding: 10px 0;
+  display: flex; }
 
 .paso2 {
-  color: #132c33;
+  color: #ffffff;
   font-size: 14px;
-  padding: 10px 0; }
+  padding: 10px 0;
+  display: flex; }
 
 .paso3 {
-  color: #132c33;
+  color: #ffffff;
   font-size: 14px;
-  padding: 10px 0; }
+  padding: 10px 0;
+  display: flex; }
 
 .paso4 {
-  color: #132c33;
+  color: #ffffff;
   font-size: 14px;
-  padding: 10px 0; }
+  padding: 10px 0;
+  display: flex; }
 
 /* Reseteo CSS */
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
@@ -152,6 +156,35 @@ p {
     opacity: 0.9; }
   100% {
     opacity: 1; } }
+
+/* Molino */
+.sectionnp-cuatro__molino1 {
+  display: block;
+  width: 200px;
+  height: 200px;
+  margin: -134px -781px;
+  animation: rotating 6s linear infinite;
+  position: absolute; }
+
+@keyframes rotating {
+  from {
+    transform: rotate(0deg); }
+  to {
+    transform: rotate(360deg); } }
+
+.sectionnp-cuatro__molino2 {
+  display: block;
+  width: 120px;
+  height: 120px;
+  margin: -161px -687px;
+  animation: rotating 6s linear infinite;
+  position: absolute; }
+
+@keyframes rotating {
+  from {
+    transform: rotate(0deg); }
+  to {
+    transform: rotate(360deg); } }
 
 body {
   background-color: #ffffff; }
@@ -308,6 +341,21 @@ body {
       .section-cinco .section-cinco__container .section-cinco__content-dos .section-cinco__p:hover {
         color: #51c4d3; }
 
+element.style {
+  pointer-events: auto;
+  position: absolute;
+  background-image: url("https://storage.googleapis.com/gpes-static/prodigioso-renovables-2/mitos_renovables_02.hyperesources/PastedVector-1.svg");
+  background-repeat: no-repeat;
+  overflow: visible;
+  background-size: 100% 100%;
+  z-index: 2;
+  opacity: 1;
+  display: inline;
+  transform-origin: 50% 50%;
+  width: 142.3px;
+  height: 142.3px;
+  transform: translateX(24px) translateY(117px) rotate(-260.514deg); }
+
 /* Energía Eólica*/
 /* ARTICLE */
 /* Carousel */
@@ -418,33 +466,6 @@ body {
     align-self: center;
     text-align: center; }
 
-.sectionnp-tres__container {
-  margin: 25px;
-  padding: 25px; }
-  .sectionnp-tres__container .sectionnp-tres__container-ul {
-    display: flex;
-    justify-content: space-evenly; }
-    .sectionnp-tres__container .sectionnp-tres__container-ul .sectionnp-tres__ul {
-      margin-top: 90px; }
-  .sectionnp-tres__container .sectionnp-tres__h1 {
-    color: #000000;
-    padding-top: 55px;
-    font-size: 40px;
-    font-weight: 300;
-    line-height: 80px;
-    align-self: center;
-    text-align: center; }
-
-.sectionnp-cuatro {
-  justify-content: center; }
-
-.sectionnp-cuatro__container {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  height: 500px;
-  width: 500px; }
-
 .sectionnp-dos__container-2 {
   justify-content: space-evenly; }
   .sectionnp-dos__container-2 .sectionnp-dos__content {
@@ -463,7 +484,7 @@ body {
   width: 320px;
   text-align: center; }
   .sectionnp-dos__div .sectionnp-dos__span {
-    color: #126e82; }
+    color: #132c33; }
     .sectionnp-dos__div .sectionnp-dos__span .sectionnp-dos__i {
       font-size: 40px;
       height: 55px;
@@ -475,15 +496,71 @@ body {
   .sectionnp-dos__div .sectionnp-dos__h5 {
     font-size: 24px; }
 
-.sectionnp__hr {
+.sectionnp__hr2 {
   border-bottom: 2px solid #126e82;
   width: 5%; }
+
+.sectionnp-tres__container {
+  margin: 25px;
+  padding: 25px; }
+  .sectionnp-tres__container .sectionnp-tres__container-ul {
+    display: flex;
+    justify-content: space-evenly; }
+    .sectionnp-tres__container .sectionnp-tres__container-ul .sectionnp-tres__ul {
+      margin-top: 90px; }
+  .sectionnp-tres__container .sectionnp-tres__h1 {
+    color: #000000;
+    padding-top: 55px;
+    font-size: 40px;
+    font-weight: 300;
+    line-height: 80px;
+    align-self: center;
+    text-align: center; }
+
+.sectionnp-cuatro {
+  justify-content: center;
+  align-items: center; }
+  .sectionnp-cuatro .sectionnp-cuatro__img {
+    object-fit: cover; }
+
+.sectionnp-cuatro__container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 641px;
+  width: 630px;
+  background-color: #132c33;
+  color: #ffffff; }
+
+.sectionnp-cuatro__content .sectionnp-cuatro__h5 {
+  font-weight: 600;
+  text-align: center;
+  font-size: 20px;
+  color: #ffffff; }
+
+.sectionnp-cuatro__content .sectionnp-cuatro__p {
+  text-align: center;
+  font-size: 15px;
+  color: #ffffff; }
+
+.sectionnp-cuatro__content .sectionnp-cuatro__p-btn {
+  width: 130px;
+  background-color: #126e82;
+  border-radius: 25px;
+  padding: 10px;
+  margin: 60px 50px; }
+  .sectionnp-cuatro__content .sectionnp-cuatro__p-btn .sectionnp-cuatro__btn {
+    color: #ffffff;
+    font-size: 17px;
+    text-decoration: none; }
+
+.sectionnp-cuatro__content .sectionnp-cuatro__p-btn:hover .sectionnp-cuatro__btn {
+  color: #51c4d3; }
 
 .sectionnp-cuatro__container {
   margin: 25px;
   padding: 25px; }
-  .sectionnp-cuatro__container .sectionnp-cuatro__ol {
-    border-radius: 15px; }
 
 /* Quienes Somos*/
 /* ARTICLE */
