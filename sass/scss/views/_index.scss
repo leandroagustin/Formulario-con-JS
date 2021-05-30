@@ -1,6 +1,8 @@
+@import "mediaqueries/responsive";
+
 /* ARTICLE */
 .section-uno__container {
-    background-image: url(../../imagenes/molino3.jpg);
+    background-image: url(/imagenes/molino3.jpg);
     background-position: center;
     background-size: cover;
     padding: 18rem 3rem;
@@ -23,19 +25,19 @@
     color: #000000;
     align-items: flex-start;
     text-align: center;
-    font-size: ($font-size * 2) + 1;    
+    font-size: ($font-size * 2) + 1;
 }
 .section-tres__container {
-    background-image: url(../../imagenes/molino4.jpg);
+    background-image: url(/imagenes/molino4.jpg);
     background-position: center;
     background-size: cover;
     padding: 7rem 1rem;
     border-radius: 0;
     margin: 0;
     .section-tres__content {
-        height: 800px; 
+        height: 800px;
         width: 700px;
-        background-color: $color-sombra; 
+        background-color: $color-sombra;
         padding: 20px 40px 30px 40px;
         .section-tres__h1 {
             margin-top: 50px;
@@ -49,7 +51,7 @@
         }
         .section-tres__p {
         font-size: $font-size + 8;
-        }    
+        }
     }
 }
 .section-cuatro__h1 {
@@ -114,20 +116,4 @@
             }
         }
     }
-}
-
-element.style {
-    pointer-events: auto;
-    position: absolute;
-    background-image: url("https://storage.googleapis.com/gpes-static/prodigioso-renovables-2/mitos_renovables_02.hyperesources/PastedVector-1.svg");
-    background-repeat: no-repeat;
-    overflow: visible;
-    background-size: 100% 100%;
-    z-index: 2;
-    opacity: 1;
-    display: inline;
-    transform-origin: 50% 50%;
-    width: 142.3px;
-    height: 142.3px;
-    transform: translateX(24px) translateY(117px) rotate(-260.514deg);
 }

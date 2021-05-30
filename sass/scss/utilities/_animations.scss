@@ -26,7 +26,7 @@
         color: $color-blanco;
     }
     75% {
-    color: $color-blanco;
+        color: $color-blanco;
     }
     100% {
         color:$color-blanco;
@@ -54,6 +54,8 @@
 }
 /* Contacto Formulario Titulo */
     .aparecer3 {
+    color:#126e82;
+    font-size: $font-size * 2;
     animation-name: mianimacion3;
     animation-duration: 2s;
     animation-timing-function: normal;
@@ -92,15 +94,15 @@
     }
 }
 
-/* Molino */
-
+/* Molino 1*/
 .sectionnp-cuatro__molino1 {
     display: block;
-    width: 200px;
-    height: 200px;
+    width: 198px;
+    height: 198px;
     margin: -134px -781px;
     animation: rotating 6s linear infinite;
     position: absolute;
+    cursor: pointer;
 }
 @keyframes rotating {
     from {
@@ -110,7 +112,14 @@
         transform: rotate(360deg);
     }
 }
+.sectionnp-cuatro__molino1:hover {
+    animation: rotating 3s linear infinite;
+}
+.sectionnp-cuatro__molino1:active {
+    animation: rotating 1s linear infinite;
+}
 
+/* Molino 1*/
 .sectionnp-cuatro__molino2 {
     display: block;
     width: 120px;
@@ -118,6 +127,7 @@
     margin: -161px -687px;
     animation: rotating 6s linear infinite;
     position: absolute;
+    cursor: pointer;
 }
 @keyframes rotating {
     from {
@@ -126,4 +136,10 @@
     to {
         transform: rotate(360deg);
     }
+}
+.sectionnp-cuatro__molino2:hover {
+    animation: rotating 3s linear infinite;
+}
+.sectionnp-cuatro__molino2:active {
+    animation: rotating 1s linear infinite;
 }

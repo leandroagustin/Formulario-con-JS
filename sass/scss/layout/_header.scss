@@ -12,12 +12,21 @@ body {
         font-size: $font-size + 9;
         color: #ffffff;
     }
+    .nav__btn {
+        border-color: #ffffff;
+        .nav__i {
+            color: #ffffff;
+        }
+    }
+    .nav__btn:active {
+            background-color: #0e5868;
+    }
 }
 
 .nav__a {
     color: #ffffff;
     font-size: $font-size + 4;
-    margin: 10px 10px;
+    margin: 2px 10px;
     padding: 10px 10px;
     transition: all 0.3s;
 }
