@@ -1,0 +1,542 @@
+/* Smartphones (portrait and landscape) */
+/* iPads (portrait and landscape) */
+/* Desktops and laptops */
+/* Large screens */
+
+/* Smartphones (portrait and landscape) */
+@media only screen and (min-width : 330px) and (max-width : 480px) {
+    /* Quienes Somos*/
+/* ARTICLE */
+.sectionq1__container {
+    background-image: url(../../imagenes/william-dehoogh-OVbctIirb5Q-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 14rem 3rem;
+    border-radius: 0;
+    height: 535px;
+    .sectionq1__h1 {
+        color: #ffffff;
+        font-size: 30px;
+        line-height: 1.2;
+        font-weight: 200;
+    }
+    .sectionq1__hr {
+        border: 1px solid $color-hr;
+    }
+}
+.sectionq2 {
+    padding: 60px 0 30px 0;
+    justify-content: space-evenly;
+        .sectionq2__container{
+        height: 600px;
+        width: 300px;
+        padding: 20px 20px;
+        transition: all 1s;
+        .sectionq2__img {
+            display: flex;
+            margin: auto;
+            object-fit: cover;
+        }
+        .sectionq2__h2 {
+            text-align: center;
+            font-size: xx-large;
+            font-family: italic;
+            padding: 30px 0;
+        }
+        .sectionq2__p {
+            height: 320px;
+            width: 240px;
+            text-align: center;
+            font-family: italic;
+            background-color: rgba(216,227,231,0.3);
+            font-size: 16px; 
+            padding: 5px;
+        }
+    }
+    .sectionq2__container:hover{
+        box-shadow: 1px 2px 6px rgba(14, 126, 167, 0.6);
+        .sectionq2__h2:hover {
+            color: #126e82;
+        }
+        .sectionq2__p:hover {
+            color: #126e82;
+        }
+    }
+}
+    .aside {
+        background-color: #126e82;
+            .aside__h1 {
+                text-align:center;
+                font-size: $font-size + 8;
+            }
+            .aside__ul-li {
+                a {
+                    color: #51c4d3;
+                    font-size: $font-size + 5;
+                }
+            }
+        }
+                /* FOOTER */
+        .footer {
+            .footer__container {
+                color: #d8e3e7;
+                font-size: $font-size;
+                align-items: center;
+                justify-content: start;
+                .footer__h5 {
+                    text-align: center;
+                    margin-left: 0;
+                }
+                .footer__h6 {
+                    text-align: center;
+                }
+            }
+        }
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen and (min-device-width : 480px) and (max-width : 767px) {
+    .sectionq1__container {
+        background-image: url(../../imagenes/william-dehoogh-OVbctIirb5Q-unsplash.jpg);
+        background-position: center;
+        background-size: cover;
+        padding: 14rem 3rem;
+        border-radius: 0;
+        height: 535px;
+        .sectionq1__h1 {
+            color: #ffffff;
+            font-size: 30px;
+            line-height: 1.2;
+            font-weight: 200;
+        }
+        .sectionq1__hr {
+            border: 1px solid $color-hr;
+        }
+    }
+    .sectionq2 {
+        padding: 60px 0 30px 0;
+        justify-content: space-evenly;
+        .sectionq2__container{
+            height: 600px;
+            width: 400px;
+            padding: 20px 10px;
+            transition: all 1s;
+            .sectionq2__img {
+                display: flex;
+                margin: auto;
+                object-fit: cover;
+            }
+            .sectionq2__h2 {
+                text-align: center;
+                font-size: xx-large;
+                font-family: italic;
+                padding: 30px 0;
+            }
+            .sectionq2__p {
+                height: 320px;
+                text-align: center;
+                font-family: italic;
+                background-color: rgba(216,227,231,0.3);
+                font-size: 18px; 
+                padding: 10px;
+            }
+        }
+        .sectionq2__container:hover{
+            box-shadow: 1px 2px 6px rgba(14, 126, 167, 0.6);
+            .sectionq2__h2:hover {
+                color: #126e82;
+            }
+            .sectionq2__p:hover {
+                color: #126e82;
+            }
+        }
+    }
+    /* ASIDE */
+    .aside {
+        background-color: #126e82;
+        .aside__h1 {
+            text-align:center;
+            font-size: $font-size + 8;
+        }
+        .aside__ul-li {
+            a {
+                color: #51c4d3;
+                font-size: $font-size + 5;
+            }
+        }
+    }
+    /* FOOTER */
+    .footer {
+        .footer__container {
+            color: #d8e3e7;
+            font-size: $font-size;
+            align-items: center;
+            justify-content: start;
+            .footer__h5 {
+                text-align: center;
+                margin-left: 0;
+            }
+            .footer__h6 {
+                text-align: center;
+            }
+        }
+    }
+}
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
+    .sectionq1__container {
+        background-image: url(../../imagenes/william-dehoogh-OVbctIirb5Q-unsplash.jpg);
+        background-position: center;
+        background-size: cover;
+        padding: 14rem 3rem;
+        border-radius: 0;
+        height: 535px;
+        .sectionq1__h1 {
+            color: #ffffff;
+            font-size: 30px;
+            line-height: 1.2;
+            font-weight: 200;
+        }
+        .sectionq1__hr {
+            border: 1px solid $color-hr;
+        }
+    }
+    .sectionq2 {
+        padding: 60px 0 30px 0;
+        justify-content: space-evenly;
+        .sectionq2__container{
+            height: 600px;
+            width: 400px;
+            padding: 20px 10px;
+            transition: all 1s;
+            .sectionq2__img {
+                display: flex;
+                margin: auto;
+                object-fit: cover;
+            }
+            .sectionq2__h2 {
+                text-align: center;
+                font-size: xx-large;
+                font-family: italic;
+                padding: 30px 0;
+            }
+            .sectionq2__p {
+                height: 320px;
+                text-align: center;
+                font-family: italic;
+                background-color: rgba(216,227,231,0.3);
+                font-size: 18px; 
+                padding: 10px;
+            }
+        }
+        .sectionq2__container:hover{
+            box-shadow: 1px 2px 6px rgba(14, 126, 167, 0.6);
+            .sectionq2__h2:hover {
+                color: #126e82;
+            }
+            .sectionq2__p:hover {
+                color: #126e82;
+            }
+        }
+    }
+    /* ASIDE */
+    .aside {
+        background-color: #126e82;
+        .aside__h1 {
+            text-align:center;
+            font-size: $font-size + 8;
+        }
+        .aside__ul-li {
+            a {
+                color: #51c4d3;
+                font-size: $font-size + 5;
+            }
+        }
+    }
+    /* FOOTER */
+    .footer {
+        .footer__container {
+            color: #d8e3e7;
+            font-size: $font-size;
+            align-items: center;
+            justify-content: start;
+            .footer__h5 {
+                text-align: center;
+                margin-left: 0;
+            }
+            .footer__h6 {
+                text-align: center;
+            }
+        }
+    }
+}
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
+    .sectionq1__container {
+        background-image: url(../../imagenes/william-dehoogh-OVbctIirb5Q-unsplash.jpg);
+        background-position: center;
+        background-size: cover;
+        padding: 14rem 3rem;
+        border-radius: 0;
+        height: 535px;
+        .sectionq1__h1 {
+            color: #ffffff;
+            font-size: 30px;
+            line-height: 1.2;
+            font-weight: 200;
+        }
+        .sectionq1__hr {
+            border: 1px solid $color-hr;
+        }
+    }
+    .sectionq2 {
+        padding: 60px 0 30px 0;
+        justify-content: space-evenly;
+        .sectionq2__container{
+            height: 600px;
+            width: 400px;
+            padding: 20px 10px;
+            transition: all 1s;
+            .sectionq2__img {
+                display: flex;
+                margin: auto;
+                object-fit: cover;
+            }
+            .sectionq2__h2 {
+                text-align: center;
+                font-size: xx-large;
+                font-family: italic;
+                padding: 30px 0;
+            }
+            .sectionq2__p {
+                height: 320px;
+                text-align: center;
+                font-family: italic;
+                background-color: rgba(216,227,231,0.3);
+                font-size: 18px; 
+                padding: 10px;
+            }
+        }
+        .sectionq2__container:hover{
+            box-shadow: 1px 2px 6px rgba(14, 126, 167, 0.6);
+            .sectionq2__h2:hover {
+                color: #126e82;
+            }
+            .sectionq2__p:hover {
+                color: #126e82;
+            }
+        }
+    }
+    /* ASIDE */
+    .aside {
+        background-color: #126e82;
+        .aside__h1 {
+            text-align:center;
+            font-size: $font-size + 8;
+        }
+        .aside__ul-li {
+            a {
+                color: #51c4d3;
+                font-size: $font-size + 5;
+            }
+        }
+    }
+    /* FOOTER */
+    .footer {
+        .footer__container {
+            color: #d8e3e7;
+            font-size: $font-size;
+            align-items: center;
+            justify-content: start;
+            .footer__h5 {
+                text-align: center;
+                margin-left: 0;
+            }
+            .footer__h6 {
+                text-align: center;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 1025px) and (max-device-width : 1224px) {
+    .sectionq1__container {
+        background-image: url(../../imagenes/william-dehoogh-OVbctIirb5Q-unsplash.jpg);
+        background-position: center;
+        background-size: cover;
+        padding: 18rem 3rem;
+        border-radius: 0;
+        height: 735px;
+        .sectionq1__h1 {
+            color: #ffffff;
+            font-size: 50px;
+            line-height: 1.2;
+            font-weight: 200;
+        }
+        .sectionq1__hr {
+            border: 1px solid $color-hr;
+        }
+    }
+    .sectionq2 {
+        padding: 60px 0 30px 0;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        .sectionq2__container{
+            height: 742px;
+            width: 440px;
+            padding: 30px 30px;
+            transition: all 1s;
+            .sectionq2__img {
+                display: flex;
+                margin: auto;
+                object-fit: cover;
+            }
+            .sectionq2__h2 {
+                text-align: center;
+                font-size: xx-large;
+                font-family: italic;
+                padding: 60px 0 60px 0;
+            }
+            .sectionq2__p {
+                height: 390px;
+                width: 380px;
+                text-align: center;
+                font-family: italic;
+                background-color: rgba(216,227,231,0.3);
+                font-size: 20px; 
+                padding: 30px;
+            }
+        }
+        .sectionq2__container:hover{
+            box-shadow: 1px 2px 6px rgba(14, 126, 167, 0.6);
+            .sectionq2__h2:hover {
+                color: #126e82;
+            }
+            .sectionq2__p:hover {
+                color: #126e82;
+            }
+        }
+    }
+        /* ASIDE */
+    .aside {
+        background-color: #126e82;
+        .aside__h1 {
+            text-align:center;
+            font-size: $font-size * 2;
+        }
+        .aside__ul-li {
+            a {
+                color: #51c4d3;
+                font-size: $font-size + 9;
+            }
+        }
+    }
+    /* FOOTER */
+    .footer {
+        .footer__container {
+            color: #d8e3e7;
+            font-size: $font-size;
+            align-items: center;
+            justify-content: start;
+            .footer__h5 {
+                text-align: center;
+                margin-left: 0;
+            }
+            .footer__h6 {
+                text-align: center;
+            }
+        }
+    }
+}
+
+@media only screen and  (min-width: 1225px) {
+        .sectionq1__container {
+        background-image: url(../../imagenes/william-dehoogh-OVbctIirb5Q-unsplash.jpg);
+        background-position: center;
+        background-size: cover;
+        padding: 18rem 3rem;
+        border-radius: 0;
+        height: 735px;
+        .sectionq1__h1 {
+            color: #ffffff;
+            font-size: 50px;
+            line-height: 1.2;
+            font-weight: 200;
+        }
+        .sectionq1__hr {
+            border: 1px solid $color-hr;
+        }
+    }
+    .sectionq2 {
+        padding: 60px 0 30px 0;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        .sectionq2__container{
+            height: 742px;
+            width: 440px;
+            padding: 30px 30px;
+            transition: all 1s;
+            .sectionq2__img {
+                display: flex;
+                margin: auto;
+                object-fit: cover;
+            }
+            .sectionq2__h2 {
+                text-align: center;
+                font-size: xx-large;
+                font-family: italic;
+                padding: 60px 0 60px 0;
+            }
+            .sectionq2__p {
+                height: 390px;
+                width: 380px;
+                text-align: center;
+                font-family: italic;
+                background-color: rgba(216,227,231,0.3);
+                font-size: 20px; 
+                padding: 30px;
+            }
+        }
+        .sectionq2__container:hover{
+            box-shadow: 1px 2px 6px rgba(14, 126, 167, 0.6);
+            .sectionq2__h2:hover {
+                color: #126e82;
+            }
+            .sectionq2__p:hover {
+                color: #126e82;
+            }
+        }
+    }
+        /* ASIDE */
+    .aside {
+    background-color: #126e82;
+        .aside__h1 {
+            text-align:center;
+            font-size: $font-size * 2;
+        }
+        .aside__ul-li {
+            a {
+                color: #51c4d3;
+                font-size: $font-size * 2;
+            }
+        }
+    }
+    /* FOOTER */
+    .footer {
+        .footer__container {
+            color: #d8e3e7;
+            font-size: $font-size;
+            align-items: center;
+            justify-content: start;
+            .footer__h5 {
+                text-align: center;
+                margin-left: 0;
+            }
+            .footer__h6 {
+                text-align: center;
+            }
+        }
+    }
+}

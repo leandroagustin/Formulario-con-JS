@@ -95,31 +95,10 @@
 }
 
 /* Molino 1*/
-.sectionnp-cuatro__molino1 {
-    display: block;
-    width: 198px;
-    height: 198px;
-    margin: -134px -781px;
-    animation: rotating 6s linear infinite;
-    position: absolute;
-    cursor: pointer;
-}
-@keyframes rotating {
-    from {
-        transform: rotate(0deg);
-    }
-    to {
-        transform: rotate(360deg);
-    }
-}
-.sectionnp-cuatro__molino1:hover {
-    animation: rotating 3s linear infinite;
-}
-.sectionnp-cuatro__molino1:active {
-    animation: rotating 1s linear infinite;
-}
+
 
 /* Molino 1*/
+/*
 .sectionnp-cuatro__molino2 {
     display: block;
     width: 120px;
@@ -142,4 +121,4 @@
 }
 .sectionnp-cuatro__molino2:active {
     animation: rotating 1s linear infinite;
-}
+} */

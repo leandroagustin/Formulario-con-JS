@@ -35,9 +35,9 @@
             <a class="nav__a--size navbar-brand active" href="/index.html">
                 MolinoSur
             </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            <button class="nav__btn navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+                <span><i class="nav__i fas fa-bars"></i></span>
             </button>
     
             <div class="nav__container collapse navbar-collapse" id="navbarNav">
@@ -73,23 +73,23 @@
     </header>
 
     <article class="row">
-        <section class="sectionc1 container-fluid">
-            <div class="sectionc1__container col-12">
+        <section class="sectionc1">
+            <div class="sectionc1__container">
                 <h1 class="sectionc1__h1 aparecer3 text-center pt-5">
                     Contacto y Consultas
                 </h1>
-                <p class="sectionc1__p lead text-center col-7 titulo-form">
+                <p class="sectionc1__p lead text-center titulo-form">
                     Podrá realizar sus consultas o solicitar información de la Cámara, a través de nuestros datos de contacto
                     como también a través del siguiente formulario y a la brevedad nos comunicaremos con usted. ¡Muchas gracias!
                 </p>
-                <form class="sectionc1__form col-7">
+                <form class="sectionc1__form">
                     <div class="form-row">
-                        <div class="form-group col-md-6">
+                        <div class="form-group col-xs-6">
                             <label for="inputEmail4">Nombre</label>
                             <input type="text" class="form-control" id="inputEmail4"
                             name="nombre" required placeholder="Nombre">
                         </div>
-                        <div class="form-group col-md-6">
+                        <div class="form-group col-xs-6">
                             <label for="inputPassword4">Apellido</label>
                             <input type="text" class="form-control" id="inputPassword4"
                             name="apellido" required placeholder="Apellido">
@@ -101,7 +101,7 @@
                         name="email" required>
                     </div>
                     <div class="form-row">
-                        <div class="form-group col-md-4">
+                        <div class="form-group col-xs-4">
                             <label for="inputState">Ciudad</label>
                             <select id="inputState" class="form-control" name="Ciudades">
                                 <option selected>Mi ciudad...</option>
@@ -127,8 +127,8 @@
                             style="height: 100px"></textarea>
                     </div>
                     <div class="text-center">
-                        <input class="sectionc1__btn mt-3 mr-2 btn" type="submit" value="Enviar mi consulta">
-                        <input class="sectionc1__btn mt-3 ml-2 btn" type="reset" value="Limpiar formulario">
+                        <input class="sectionc1__btn mt-3 btn" type="submit" value="Enviar mi consulta">
+                        <input class="sectionc1__btn mt-3 btn" type="reset" value="Limpiar formulario">
                     </div>
                 </form>
             </div>
@@ -139,7 +139,7 @@
             <label class="sectionc2__label titular col-12 text-center">
             Otras formas de contactarse:
             </label>
-            <div class="sectionc2__content division-content col-12">
+            <div class="sectionc2__content division-content row">
                 <div class="sectionc2__content-div divisores">
                     <div class="sectionc2__divs">
                         <h4 class="h5 sectionc2__divs-h4">Tel./Fax:</h4>

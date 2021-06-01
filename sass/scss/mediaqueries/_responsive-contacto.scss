@@ -1,0 +1,602 @@
+/* Smartphones (portrait and landscape) */
+/* iPads (portrait and landscape) */
+/* Desktops and laptops */
+/* Large screens */
+
+/* Smartphones (portrait and landscape) */
+@media only screen and (min-width : 330px) and (max-width : 480px) {
+/* Contacto */
+/* ARTICLE */
+/* Formulario */
+    .sectionc1 {
+        background-image: url(../../imagenes/contacto.jpg);
+        background-position: center;
+        background-size: fill;
+        padding: 4rem 1rem;
+        border-radius: 0;
+        height: 950px;
+        .sectionc1__container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            .sectionc1__h1 {
+                color:#126e82;
+                font-size: $font-size * 3;
+                font-weight: 200;
+            }
+            .sectionc1__p {
+                width: 290px;
+                font-size: 18px;
+                line-height: 1;
+                background-color: rgba(139, 205, 230, 0.3);
+                padding: 4px;
+                border: 1px solid #132c33;
+                border-radius: 10px;
+            }
+            .sectionc1__form {
+                color: #132c33;
+                background-color: rgba(139, 205, 230, 0.3);
+                border: 1px solid #132c33;
+                border-radius: 10px;
+                padding: 10px;
+                margin: 20px 0 20px 0;
+            }
+            .sectionc1__textarea {
+                resize:none;
+            }
+            .sectionc1__btn {
+                color: #ffffff;
+                background-color:#126e82;
+            }
+            .sectionc1__btn:hover {
+                color:#51c4d3;
+            }
+            .sectionc1__btn:active {
+                color:#51c4d3;
+                background-color: #132c33;
+            }
+        }
+    }
+    .sectionc2 {
+        background-color: #d8e3e7;
+        padding-top: 20px;
+        .sectionc2__label {
+            font-size: $font-size * 2;
+            font-weight: 200;
+            color:#126e82;
+        }
+        .sectionc2__content {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            align-items: center;
+            .sectionc2__content-div {
+                padding: 20px;
+                width: 250px;
+                text-align: center;
+                .sectionc2__divs {
+                    padding: 5px;
+                    .sectionc2__divs-h4 {
+                        color:#126e82;
+                    }
+                }
+            }
+        }
+    }
+    /* ASIDE */
+    .aside {
+        background-color: #126e82;
+        .aside__h1 {
+            text-align:center;
+            font-size: $font-size + 8;
+        }
+        .aside__ul-li {
+            a {
+                color: #51c4d3;
+                font-size: $font-size + 5;
+            }
+        }
+    }
+    /* FOOTER */
+    .footer {
+        .footer__container {
+            color: #d8e3e7;
+            font-size: $font-size;
+            align-items: center;
+            justify-content: start;
+            .footer__h5 {
+                text-align: center;
+                margin-left: 0;
+            }
+            .footer__h6 {
+                text-align: center;
+            }
+        }
+    }
+}
+/* Smartphones (portrait) ----------- */
+@media only screen and (min-device-width : 480px) and (max-width : 767px) {
+    .sectionc1 {
+        background-image: url(../../imagenes/contacto.jpg);
+        background-position: center;
+        background-size: fill;
+        padding: 8rem 1rem;
+        border-radius: 0;
+        height: 950px;
+        .sectionc1__container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            .sectionc1__h1 {
+                color:#126e82;
+                font-size: $font-size * 3 + 3;
+                font-weight: 200;
+            }
+            .sectionc1__p {
+                font-size: 18px;
+                line-height: 1;
+                background-color: rgba(139, 205, 230, 0.3);
+                padding: 4px;
+                border: 1px solid #132c33;
+                border-radius: 10px;
+            }
+            .sectionc1__form {
+                color: #132c33;
+                background-color: rgba(139, 205, 230, 0.3);
+                border: 1px solid #132c33;
+                border-radius: 10px;
+                padding: 10px;
+                margin: 20px 0 20px 0;
+            }
+            .sectionc1__textarea {
+                resize:none;
+            }
+            .sectionc1__btn {
+                color: #ffffff;
+                background-color:#126e82;
+            }
+            .sectionc1__btn:hover {
+                color:#51c4d3;
+            }
+            .sectionc1__btn:active {
+                color:#51c4d3;
+                background-color: #132c33;
+            }
+        }
+    }
+    .sectionc2 {
+        background-color: #d8e3e7;
+        padding-top: 20px;
+        .sectionc2__label {
+            font-size: $font-size * 2;
+            font-weight: 200;
+            color:#126e82;
+        }
+        .sectionc2__content {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            align-items: center;
+            .sectionc2__content-div {
+                padding: 20px;
+                width: 250px;
+                text-align: center;
+                .sectionc2__divs {
+                    padding: 5px;
+                    .sectionc2__divs-h4 {
+                        color:#126e82;
+                    }
+                }
+            }
+        }
+    }
+    /* ASIDE */
+    .aside {
+        background-color: #126e82;
+        .aside__h1 {
+            text-align:center;
+            font-size: $font-size + 8;
+        }
+        .aside__ul-li {
+            a {
+                color: #51c4d3;
+                font-size: $font-size + 5;
+            }
+        }
+    }
+    /* FOOTER */
+    .footer {
+        .footer__container {
+            color: #d8e3e7;
+            font-size: $font-size;
+            align-items: center;
+            justify-content: start;
+            .footer__h5 {
+                text-align: center;
+                margin-left: 0;
+            }
+            .footer__h6 {
+                text-align: center;
+            }
+        }
+    }
+}
+
+/* iPads (landscape) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
+        .sectionc1 {
+        background-image: url(../../imagenes/contacto.jpg);
+        background-position: center;
+        background-size: fill;
+        padding: 8rem 1rem;
+        border-radius: 0;
+        height: 950px;
+        .sectionc1__container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            .sectionc1__h1 {
+                color:#126e82;
+                font-size: $font-size * 3 + 5;
+                font-weight: 200;
+            }
+            .sectionc1__p {
+                font-size: 18px;
+                line-height: 2;
+                background-color: rgba(139, 205, 230, 0.3);
+                padding: 4px;
+                border: 1px solid #132c33;
+                border-radius: 10px;
+                margin: 0 90px;
+            }
+            .sectionc1__form {
+                width: 560px;
+                color: #132c33;
+                background-color: rgba(139, 205, 230, 0.3);
+                border: 1px solid #132c33;
+                border-radius: 10px;
+                padding: 10px;
+                margin: 20px 0 20px 0;
+            }
+            .sectionc1__textarea {
+                resize:none;
+            }
+            .sectionc1__btn {
+                color: #ffffff;
+                background-color:#126e82;
+            }
+            .sectionc1__btn:hover {
+                color:#51c4d3;
+            }
+            .sectionc1__btn:active {
+                color:#51c4d3;
+                background-color: #132c33;
+            }
+        }
+    }
+    .sectionc2 {
+        background-color: #d8e3e7;
+        padding-top: 20px;
+        .sectionc2__label {
+            font-size: $font-size * 2;
+            font-weight: 200;
+            color:#126e82;
+        }
+        .sectionc2__content {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            align-items: center;
+            .sectionc2__content-div {
+                padding: 20px;
+                width: 250px;
+                text-align: center;
+                .sectionc2__divs {
+                    padding: 5px;
+                    .sectionc2__divs-h4 {
+                        color:#126e82;
+                    }
+                }
+            }
+        }
+    }
+        /* ASIDE */
+    .aside {
+        background-color: #126e82;
+        .aside__h1 {
+            text-align:center;
+            font-size: $font-size + 8;
+        }
+        .aside__ul-li {
+            a {
+                color: #51c4d3;
+                font-size: $font-size + 5;
+            }
+        }
+    }
+    /* FOOTER */
+    .footer {
+        .footer__container {
+            color: #d8e3e7;
+            font-size: $font-size;
+            align-items: center;
+            justify-content: start;
+            .footer__h5 {
+                text-align: center;
+                margin-left: 0;
+            }
+            .footer__h6 {
+                text-align: center;
+            }
+        }
+    }
+}
+/* iPads (portrait) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
+        .sectionc1 {
+        background-image: url(../../imagenes/contacto.jpg);
+        background-position: center;
+        background-size: fill;
+        padding: 8rem 1rem;
+        border-radius: 0;
+        height: 950px;
+        .sectionc1__container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            .sectionc1__h1 {
+                color:#126e82;
+                font-size: $font-size * 3 + 5;
+                font-weight: 200;
+            }
+            .sectionc1__p {
+                font-size: 18px;
+                line-height: 2;
+                background-color: rgba(139, 205, 230, 0.3);
+                padding: 4px;
+                border: 1px solid #132c33;
+                border-radius: 10px;
+                margin: 0 90px;
+            }
+            .sectionc1__form {
+                width: 560px;
+                color: #132c33;
+                background-color: rgba(139, 205, 230, 0.3);
+                border: 1px solid #132c33;
+                border-radius: 10px;
+                padding: 10px;
+                margin: 20px 0 20px 0;
+            }
+            .sectionc1__textarea {
+                resize:none;
+            }
+            .sectionc1__btn {
+                color: #ffffff;
+                background-color:#126e82;
+            }
+            .sectionc1__btn:hover {
+                color:#51c4d3;
+            }
+            .sectionc1__btn:active {
+                color:#51c4d3;
+                background-color: #132c33;
+            }
+        }
+    }
+    .sectionc2 {
+        background-color: #d8e3e7;
+        padding-top: 20px;
+        .sectionc2__label {
+            font-size: $font-size * 2;
+            font-weight: 200;
+            color:#126e82;
+        }
+        .sectionc2__content {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            align-items: center;
+            .sectionc2__content-div {
+                padding: 20px;
+                width: 250px;
+                text-align: center;
+                .sectionc2__divs {
+                    padding: 5px;
+                    .sectionc2__divs-h4 {
+                        color:#126e82;
+                    }
+                }
+            }
+        }
+    }
+        /* ASIDE */
+    .aside {
+        background-color: #126e82;
+        .aside__h1 {
+            text-align:center;
+            font-size: $font-size + 8;
+        }
+        .aside__ul-li {
+            a {
+                color: #51c4d3;
+                font-size: $font-size + 5;
+            }
+        }
+    }
+    /* FOOTER */
+    .footer {
+        .footer__container {
+            color: #d8e3e7;
+            font-size: $font-size;
+            align-items: center;
+            justify-content: start;
+            .footer__h5 {
+                text-align: center;
+                margin-left: 0;
+            }
+            .footer__h6 {
+                text-align: center;
+            }
+        }
+    }
+}
+
+/* Desktops and laptops ----------- */
+@media only screen and (min-width: 1024px) and (max-device-width : 1224px) {
+    .sectionc1 {
+    background-image: url(../../imagenes/contacto.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 8rem 6rem;
+    border-radius: 0;
+    height: 900px;
+    .sectionc1__container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        .sectionc1__h1 {
+            color:#126e82;
+            font-size: $font-size * 4;
+            font-weight: 200;
+        }
+        .sectionc1__p {
+            font-size: 18px;
+            line-height: 2;
+            background-color: rgba(139, 205, 230, 0.3);
+            padding: 8px;
+            border: 1px solid #132c33;
+            border-radius: 10px;
+            margin: 10px 0 10px 0;
+        }
+        .sectionc1__form {
+            color: #132c33;
+            background-color: rgba(139, 205, 230, 0.3);
+            border: 1px solid #132c33;
+            border-radius: 10px;
+            padding: 20px;
+            margin: 40px 0 40px 0;
+        }
+        .sectionc1__textarea {
+            resize:none;
+        }
+        .sectionc1__btn {
+            color: #ffffff;
+            background-color:#126e82;
+        }
+        .sectionc1__btn:hover {
+            color:#51c4d3;
+        }
+        .sectionc1__btn:active {
+            color:#51c4d3;
+            background-color: #132c33;
+        }
+    }
+}
+.sectionc2 {
+    background-color: #d8e3e7;
+    padding-top: 30px;
+    .sectionc2__label {
+        font-size: $font-size * 3;
+        font-weight: 200;
+        color:#126e82;
+    }
+    .sectionc2__content {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        .sectionc2__content-div {
+            padding: 40px;
+            width: 350px;
+            text-align: center;
+            .sectionc2__divs {
+                padding: 10px;
+                .sectionc2__divs-h4 {
+                    color:#126e82;
+                }
+            }
+        }
+    }
+}
+}
+
+/* Large screens ----------- */
+@media only screen and  (min-width: 1225px) {
+    .sectionc1 {
+    background-image: url(../../imagenes/contacto.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 8rem 13rem;
+    border-radius: 0;
+    height: 900px;
+    .sectionc1__container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        .sectionc1__h1 {
+            color:#126e82;
+            font-size: $font-size * 4;
+            font-weight: 200;
+        }
+        .sectionc1__p {
+            font-size: 18px;
+            line-height: 2;
+            background-color: rgba(139, 205, 230, 0.3);
+            padding: 8px;
+            border: 1px solid #132c33;
+            border-radius: 10px;
+            margin: 10px 0 10px 0;
+        }
+        .sectionc1__form {
+            width: -webkit-fill-available;
+            color: #132c33;
+            background-color: rgba(139, 205, 230, 0.3);
+            border: 1px solid #132c33;
+            border-radius: 10px;
+            padding: 20px;
+            margin: 40px 0 40px 0;
+        }
+        .sectionc1__textarea {
+            resize:none;
+        }
+        .sectionc1__btn {
+            color: #ffffff;
+            background-color:#126e82;
+        }
+        .sectionc1__btn:hover {
+            color:#51c4d3;
+        }
+        .sectionc1__btn:active {
+            color:#51c4d3;
+            background-color: #132c33;
+        }
+    }
+}
+.sectionc2 {
+    flex-direction: column;
+    background-color: #d8e3e7;
+    padding-top: 30px;
+    .sectionc2__label {
+        font-size: $font-size * 3;
+        font-weight: 200;
+        color:#126e82;
+    }
+    .sectionc2__content {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        .sectionc2__content-div {
+            padding: 40px;
+            width: 350px;
+            text-align: center;
+            .sectionc2__divs {
+                padding: 10px;
+                .sectionc2__divs-h4 {
+                    color:#126e82;
+                }
+            }
+        }
+    }
+}
+}
