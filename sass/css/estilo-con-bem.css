@@ -2700,8 +2700,8 @@ body {
     justify-content: space-evenly; }
     .sectionq2 .sectionq2__container {
       height: 600px;
-      width: 300px;
-      padding: 20px 20px;
+      width: 400px;
+      padding: 20px 10px;
       transition: all 1s; }
       .sectionq2 .sectionq2__container .sectionq2__img {
         display: flex;
@@ -2714,18 +2714,12 @@ body {
         padding: 30px 0; }
       .sectionq2 .sectionq2__container .sectionq2__p {
         height: 320px;
-        width: 240px;
         text-align: center;
         font-family: italic;
         background-color: rgba(216, 227, 231, 0.3);
-        font-size: 16px;
-        padding: 5px; }
-    .sectionq2 .sectionq2__container:hover {
-      box-shadow: 1px 2px 6px rgba(14, 126, 167, 0.6); }
-      .sectionq2 .sectionq2__container:hover .sectionq2__h2:hover {
-        color: #126e82; }
-      .sectionq2 .sectionq2__container:hover .sectionq2__p:hover {
-        color: #126e82; }
+        font-size: 18px;
+        padding: 10px;
+        width: -webkit-fill-available; }
   .aside {
     background-color: #126e82; }
     .aside .aside__h1 {
@@ -4569,8 +4563,8 @@ body {
     justify-content: space-evenly; }
     .sectionq2 .sectionq2__container {
       height: 600px;
-      width: 300px;
-      padding: 20px 20px;
+      width: 400px;
+      padding: 20px 10px;
       transition: all 1s; }
       .sectionq2 .sectionq2__container .sectionq2__img {
         display: flex;
@@ -4583,18 +4577,12 @@ body {
         padding: 30px 0; }
       .sectionq2 .sectionq2__container .sectionq2__p {
         height: 320px;
-        width: 240px;
         text-align: center;
         font-family: italic;
         background-color: rgba(216, 227, 231, 0.3);
-        font-size: 16px;
-        padding: 5px; }
-    .sectionq2 .sectionq2__container:hover {
-      box-shadow: 1px 2px 6px rgba(14, 126, 167, 0.6); }
-      .sectionq2 .sectionq2__container:hover .sectionq2__h2:hover {
-        color: #126e82; }
-      .sectionq2 .sectionq2__container:hover .sectionq2__p:hover {
-        color: #126e82; }
+        font-size: 18px;
+        padding: 10px;
+        width: -webkit-fill-available; }
   .aside {
     background-color: #126e82; }
     .aside .aside__h1 {

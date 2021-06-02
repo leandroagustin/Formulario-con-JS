@@ -8,60 +8,51 @@
     /* Quienes Somos*/
 /* ARTICLE */
 .sectionq1__container {
-    background-image: url(../../imagenes/william-dehoogh-OVbctIirb5Q-unsplash.jpg);
-    background-position: center;
-    background-size: cover;
-    padding: 14rem 3rem;
-    border-radius: 0;
-    height: 535px;
-    .sectionq1__h1 {
-        color: #ffffff;
-        font-size: 30px;
-        line-height: 1.2;
-        font-weight: 200;
+        background-image: url(../../imagenes/william-dehoogh-OVbctIirb5Q-unsplash.jpg);
+        background-position: center;
+        background-size: cover;
+        padding: 14rem 3rem;
+        border-radius: 0;
+        height: 535px;
+        .sectionq1__h1 {
+            color: #ffffff;
+            font-size: 30px;
+            line-height: 1.2;
+            font-weight: 200;
+        }
+        .sectionq1__hr {
+            border: 1px solid $color-hr;
+        }
     }
-    .sectionq1__hr {
-        border: 1px solid $color-hr;
-    }
-}
-.sectionq2 {
-    padding: 60px 0 30px 0;
-    justify-content: space-evenly;
+    .sectionq2 {
+        padding: 60px 0 30px 0;
+        justify-content: space-evenly;
         .sectionq2__container{
-        height: 600px;
-        width: 300px;
-        padding: 20px 20px;
-        transition: all 1s;
-        .sectionq2__img {
-            display: flex;
-            margin: auto;
-            object-fit: cover;
+            height: 600px;
+            width: 400px;
+            padding: 20px 10px;
+            transition: all 1s;
+            .sectionq2__img {
+                display: flex;
+                margin: auto;
+                object-fit: cover;
+            }
+            .sectionq2__h2 {
+                text-align: center;
+                font-size: xx-large;
+                font-family: italic;
+                padding: 30px 0;
+            }
+            .sectionq2__p {
+                height: 320px;
+                text-align: center;
+                font-family: italic;
+                background-color: rgba(216,227,231,0.3);
+                font-size: 18px; 
+                padding: 10px;
+                width: -webkit-fill-available;
+            }
         }
-        .sectionq2__h2 {
-            text-align: center;
-            font-size: xx-large;
-            font-family: italic;
-            padding: 30px 0;
-        }
-        .sectionq2__p {
-            height: 320px;
-            width: 240px;
-            text-align: center;
-            font-family: italic;
-            background-color: rgba(216,227,231,0.3);
-            font-size: 16px; 
-            padding: 5px;
-        }
-    }
-    .sectionq2__container:hover{
-        box-shadow: 1px 2px 6px rgba(14, 126, 167, 0.6);
-        .sectionq2__h2:hover {
-            color: #126e82;
-        }
-        .sectionq2__p:hover {
-            color: #126e82;
-        }
-    }
 }
     .aside {
         background-color: #126e82;
@@ -151,7 +142,7 @@
             }
         }
     }
-    /* ASIDE */
+        /* ASIDE */
     .aside {
         background-color: #126e82;
         .aside__h1 {
