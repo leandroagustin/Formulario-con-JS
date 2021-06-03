@@ -16,10 +16,8 @@
     <script src="https://kit.fontawesome.com/62ea397d3a.js" crossorigin="anonymous"></script>
     <!-- Bootstrap -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
-
     <!-- Mi CSS -->
     <link rel="stylesheet" type="text/css" href="/sass/css/estilo-con-bem.css">
-
 </head>
 
 <body class="container-fluid">
@@ -72,8 +70,8 @@
         </nav>
     </header>
 
-    <article class="row">
-        <section class="sectionc1">
+    <article>
+        <section class="sectionc1 row">
             <div class="sectionc1__container">
                 <h1 class="sectionc1__h1 aparecer3 text-center pt-5">
                     Contacto y Consultas
@@ -85,32 +83,53 @@
                 <form class="sectionc1__form">
                     <div class="form-row">
                         <div class="form-group col-xs-6">
-                            <label for="inputEmail4">Nombre</label>
+                            <label for="inputEmail4">
+                                Nombre
+                            </label>
                             <input type="text" class="form-control" id="inputEmail4"
                             name="nombre" required placeholder="Nombre">
                         </div>
                         <div class="form-group col-xs-6">
-                            <label for="inputPassword4">Apellido</label>
+                            <label for="inputPassword4">
+                                Apellido
+                            </label>
                             <input type="text" class="form-control" id="inputPassword4"
                             name="apellido" required placeholder="Apellido">
                         </div>
                     </div>
                     <div class="form-group">
-                        <label for="inputAddress">Correo electronico</label>
+                        <label for="inputAddress">
+                            Correo electronico</label>
                         <input type="email" class="form-control" id="inputAddress" placeholder="usuario@hotmail.com" 
                         name="email" required>
                     </div>
                     <div class="form-row">
                         <div class="form-group col-xs-4">
-                            <label for="inputState">Ciudad</label>
+                            <label for="inputState">
+                                Ciudad
+                            </label>
                             <select id="inputState" class="form-control" name="Ciudades">
-                                <option selected>Mi ciudad...</option>
-                                <option value="1">Puerto Madryn</option>
-                                <option value="2">Comodoro Rivadavia</option>
-                                <option value="3">Trelew</option>
-                                <option value="4">Rawson</option>
-                                <option value="4">Gaiman</option>
-                                <option value="4">Dolavon</option>
+                                <option selected>
+                                    Mi ciudad...
+                                </option>
+                                <option value="1">
+                                    Puerto Madryn
+                                </option>
+                                <option value="2">
+                                    Comodoro Rivadavia
+                                </option>
+                                <option value="3">
+                                    Trelew
+                                </option>
+                                <option value="4">
+                                    Rawson
+                                </option>
+                                <option value="5">
+                                    Gaiman
+                                </option>
+                                <option value="6">
+                                    Dolavon
+                                </option>
                             </select>
                         </div>
                     </div>
@@ -124,7 +143,7 @@
                     </div>
                     <div class="form-floating">
                         <textarea class="sectionc1__textarea form-control" placeholder="Escriba su consulta..." id="floatingTextarea2"
-                            style="height: 100px"></textarea>
+                        style="height: 100px"></textarea>
                     </div>
                     <div class="text-center">
                         <input class="sectionc1__btn mt-3 btn" type="submit" value="Enviar mi consulta">
@@ -133,39 +152,51 @@
                 </form>
             </div>
         </section>
-        </article>
 
-        <article class="sectionc2 row">
-            <label class=" sectionc2__label titular col-12 text-center">
-            Otras formas de contactarse:
+        <section class="sectionc2 row">
+            <label class="sectionc2__label titular col-12 text-center">
+                Otras formas de contactarse:
             </label>
             <div class="sectionc2__content division-content">
                 <div class="sectionc2__content-div divisores">
                     <div class="sectionc2__divs">
-                        <h4 class="h5 sectionc2__divs-h4">Tel./Fax:</h4>
+                        <h4 class="h5 sectionc2__divs-h4">
+                            Tel./Fax:
+                        </h4>
                     </div>
                     <div class="sectionc2__divs">
-                        <span>+54 (280) 4012345</span>
-                    </div>
-                </div>
-                <div class="sectionc2__content-div divisores">
-                    <div class="sectionc2__divs">
-                        <h4 class="h5 sectionc2__divs-h4">Nuestro E-mail:</h4>
-                    </div>
-                    <div class="sectionc2__divs">
-                        <span>Info@VDS.com.ar</span>
+                        <span>
+                            +54 (280) 4012345
+                        </span>
                     </div>
                 </div>
                 <div class="sectionc2__content-div divisores">
                     <div class="sectionc2__divs">
-                        <h4 class="h5 sectionc2__divs-h4">Horarios de Atención:</h4>
+                        <h4 class="h5 sectionc2__divs-h4">
+                            Nuestro E-mail:
+                        </h4>
                     </div>
                     <div class="sectionc2__divs">
-                        <span>Lunes a Viernes de 09.00 hs a 17.00 hs.</span>
+                        <span>
+                            Info@VDS.com.ar
+                        </span>
+                    </div>
+                </div>
+                <div class="sectionc2__content-div divisores">
+                    <div class="sectionc2__divs">
+                        <h4 class="h5 sectionc2__divs-h4">
+                            Horarios de Atención:
+                        </h4>
+                    </div>
+                    <div class="sectionc2__divs">
+                        <span>
+                            Lunes a Viernes de 09.00 hs a 17.00 hs.
+                        </span>
                     </div>
                 </div>
             </div>
-        </article>
+        </section>
+    </article>
     <!-- Aside -->
     <aside class="aside row justify-content-center shadow-top">
         <h1 class="aside__h1 h4 my-5">

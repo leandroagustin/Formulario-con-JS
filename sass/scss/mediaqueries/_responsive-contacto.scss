@@ -168,6 +168,8 @@
     .sectionc2 {
         background-color: $claro;
         padding-top: 20px;
+        flex-direction: row;
+        justify-content: space-around;
         .sectionc2__label {
             font-size: $font-size * 2;
             font-weight: 200;
@@ -176,7 +178,6 @@
         .sectionc2__content {
             display: flex;
             flex-direction: row;
-            flex-wrap: wrap;
             justify-content: space-around;
             align-items: center;
             .sectionc2__content-div {
@@ -279,7 +280,8 @@
     .sectionc2 {
         background-color: $claro;
         padding-top: 20px;
-        flex-direction: column;
+        flex-direction: row;
+        justify-content: space-around;
         flex-wrap: wrap;
         .sectionc2__label {
             font-size: $font-size * 2;
@@ -288,7 +290,7 @@
         }
         .sectionc2__content {
             display: flex;
-            flex-direction: column;
+            flex-direction: row;
             flex-wrap: wrap;
             justify-content: space-around;
             align-items: center;
@@ -391,8 +393,8 @@
     .sectionc2 {
         background-color: $claro;
         padding-top: 20px;
-        flex-direction: column;
-        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-around;
         .sectionc2__label {
             font-size: $font-size * 2;
             font-weight: 200;
@@ -611,7 +613,8 @@
     }
 }
     .sectionc2 {
-        flex-direction: column;
+        flex-direction: row;
+        justify-content: space-around;
         background-color: $claro;
         padding-top: 30px;
         .sectionc2__label {

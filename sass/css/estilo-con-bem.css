@@ -3237,7 +3237,9 @@ body {
         background-color: #132c33; }
   .sectionc2 {
     background-color: #D8E3E7;
-    padding-top: 20px; }
+    padding-top: 20px;
+    flex-direction: row;
+    justify-content: space-around; }
     .sectionc2 .sectionc2__label {
       font-size: 24px;
       font-weight: 200;
@@ -3245,7 +3247,6 @@ body {
     .sectionc2 .sectionc2__content {
       display: flex;
       flex-direction: row;
-      flex-wrap: wrap;
       justify-content: space-around;
       align-items: center; }
       .sectionc2 .sectionc2__content .sectionc2__content-div {
@@ -3323,7 +3324,8 @@ body {
   .sectionc2 {
     background-color: #D8E3E7;
     padding-top: 20px;
-    flex-direction: column;
+    flex-direction: row;
+    justify-content: space-around;
     flex-wrap: wrap; }
     .sectionc2 .sectionc2__label {
       font-size: 24px;
@@ -3331,7 +3333,7 @@ body {
       color: #126E82; }
     .sectionc2 .sectionc2__content {
       display: flex;
-      flex-direction: column;
+      flex-direction: row;
       flex-wrap: wrap;
       justify-content: space-around;
       align-items: center; }
@@ -3410,8 +3412,8 @@ body {
   .sectionc2 {
     background-color: #D8E3E7;
     padding-top: 20px;
-    flex-direction: column;
-    flex-wrap: wrap; }
+    flex-direction: row;
+    justify-content: space-around; }
     .sectionc2 .sectionc2__label {
       font-size: 24px;
       font-weight: 200;
@@ -3578,7 +3580,8 @@ body {
         color: #51C4D3;
         background-color: #132c33; }
   .sectionc2 {
-    flex-direction: column;
+    flex-direction: row;
+    justify-content: space-around;
     background-color: #D8E3E7;
     padding-top: 30px; }
     .sectionc2 .sectionc2__label {
@@ -6342,7 +6345,9 @@ body {
         background-color: #132c33; }
   .sectionc2 {
     background-color: #D8E3E7;
-    padding-top: 20px; }
+    padding-top: 20px;
+    flex-direction: row;
+    justify-content: space-around; }
     .sectionc2 .sectionc2__label {
       font-size: 24px;
       font-weight: 200;
@@ -6350,7 +6355,6 @@ body {
     .sectionc2 .sectionc2__content {
       display: flex;
       flex-direction: row;
-      flex-wrap: wrap;
       justify-content: space-around;
       align-items: center; }
       .sectionc2 .sectionc2__content .sectionc2__content-div {
@@ -6428,7 +6432,8 @@ body {
   .sectionc2 {
     background-color: #D8E3E7;
     padding-top: 20px;
-    flex-direction: column;
+    flex-direction: row;
+    justify-content: space-around;
     flex-wrap: wrap; }
     .sectionc2 .sectionc2__label {
       font-size: 24px;
@@ -6436,7 +6441,7 @@ body {
       color: #126E82; }
     .sectionc2 .sectionc2__content {
       display: flex;
-      flex-direction: column;
+      flex-direction: row;
       flex-wrap: wrap;
       justify-content: space-around;
       align-items: center; }
@@ -6515,8 +6520,8 @@ body {
   .sectionc2 {
     background-color: #D8E3E7;
     padding-top: 20px;
-    flex-direction: column;
-    flex-wrap: wrap; }
+    flex-direction: row;
+    justify-content: space-around; }
     .sectionc2 .sectionc2__label {
       font-size: 24px;
       font-weight: 200;
@@ -6683,7 +6688,8 @@ body {
         color: #51C4D3;
         background-color: #132c33; }
   .sectionc2 {
-    flex-direction: column;
+    flex-direction: row;
+    justify-content: space-around;
     background-color: #D8E3E7;
     padding-top: 30px; }
     .sectionc2 .sectionc2__label {
