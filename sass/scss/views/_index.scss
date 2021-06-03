@@ -2,7 +2,7 @@
 
 /* ARTICLE */
 .section-uno__container {
-    background-image: url(/imagenes/molino3.jpg);
+    background-image: url(/imagenes/molinosur.jpg);
     background-position: center;
     background-size: cover;
     padding: 18rem 3rem;
@@ -28,7 +28,7 @@
     font-size: ($font-size * 2) + 1;
 }
 .section-tres__container {
-    background-image: url(/imagenes/molino4.jpg);
+    background-image: url(/imagenes/sunnily-x600.jpg);
     background-position: center;
     background-size: cover;
     padding: 7rem 1rem;
@@ -64,7 +64,7 @@
     text-align: center;
 }
 .section-cuatro__hr{
-    border-bottom: 2px solid #126e82;
+    border-bottom: 2px solid $azul;
     width: 5%;
     margin: 0 auto;
 }
@@ -74,7 +74,7 @@
     text-align: center;
     font-size: $font-size * 2;
     .section-cinco__hr {
-        border-bottom: 2px solid #126e82;
+        border-bottom: 2px solid $azul;
         width: 5%;
         margin: 125px 0;
     }
@@ -86,7 +86,7 @@
         height: 300px;
         width: 300px;
         .section-cinco__content {
-            background-color: #132c33;
+            background-color: $azul-fuerte;
             text-align: center;
             .section-cinco__svg {
                 color: #ffffff;
@@ -96,11 +96,11 @@
                 transition: all 0.3s;
             }
             .section-cinco__svg:hover {
-                color: #51c4d3;
+                color: $celeste;
             }
         }
         .section-cinco__content-dos {
-            background-color: #132c33;
+            background-color: $azul-fuerte;
             padding: 1.25rem;
             display: flex;
             flex-direction: row;
@@ -112,7 +112,7 @@
                 transition: all 0.3s;
             }
             .section-cinco__p:hover{
-                color: #51c4d3;
+                color: $celeste;
             }
         }
     }

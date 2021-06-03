@@ -8,7 +8,7 @@
     /* Quienes Somos*/
 /* ARTICLE */
 .sectionq1__container {
-        background-image: url(../../imagenes/william-dehoogh-OVbctIirb5Q-unsplash.jpg);
+        background-image: url(/imagenes/quienes-somos.jpg);
         background-position: center;
         background-size: cover;
         padding: 14rem 3rem;
@@ -55,14 +55,14 @@
         }
 }
     .aside {
-        background-color: #126e82;
+        background-color: $azul;
             .aside__h1 {
                 text-align:center;
                 font-size: $font-size + 8;
             }
             .aside__ul-li {
                 a {
-                    color: #51c4d3;
+                    color: $celeste;
                     font-size: $font-size + 5;
                 }
             }
@@ -70,7 +70,7 @@
                 /* FOOTER */
         .footer {
             .footer__container {
-                color: #d8e3e7;
+                color: $claro;
                 font-size: $font-size;
                 align-items: center;
                 justify-content: start;
@@ -88,7 +88,7 @@
 /* Smartphones (portrait) ----------- */
 @media only screen and (min-device-width : 480px) and (max-width : 767px) {
     .sectionq1__container {
-        background-image: url(../../imagenes/william-dehoogh-OVbctIirb5Q-unsplash.jpg);
+        background-image: url(/imagenes/quienes-somos.jpg);
         background-position: center;
         background-size: cover;
         padding: 14rem 3rem;
@@ -135,23 +135,23 @@
         .sectionq2__container:hover{
             box-shadow: 1px 2px 6px rgba(14, 126, 167, 0.6);
             .sectionq2__h2:hover {
-                color: #126e82;
+                color: $azul;
             }
             .sectionq2__p:hover {
-                color: #126e82;
+                color: $azul;
             }
         }
     }
         /* ASIDE */
     .aside {
-        background-color: #126e82;
+        background-color: $azul;
         .aside__h1 {
             text-align:center;
             font-size: $font-size + 8;
         }
         .aside__ul-li {
             a {
-                color: #51c4d3;
+                color: $celeste;
                 font-size: $font-size + 5;
             }
         }
@@ -159,7 +159,7 @@
     /* FOOTER */
     .footer {
         .footer__container {
-            color: #d8e3e7;
+            color: $claro;
             font-size: $font-size;
             align-items: center;
             justify-content: start;
@@ -176,7 +176,7 @@
 
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
     .sectionq1__container {
-        background-image: url(../../imagenes/william-dehoogh-OVbctIirb5Q-unsplash.jpg);
+        background-image: url(/imagenes/quienes-somos.jpg);
         background-position: center;
         background-size: cover;
         padding: 14rem 3rem;
@@ -223,23 +223,23 @@
         .sectionq2__container:hover{
             box-shadow: 1px 2px 6px rgba(14, 126, 167, 0.6);
             .sectionq2__h2:hover {
-                color: #126e82;
+                color: $azul;
             }
             .sectionq2__p:hover {
-                color: #126e82;
+                color: $azul;
             }
         }
     }
     /* ASIDE */
     .aside {
-        background-color: #126e82;
+        background-color: $azul;
         .aside__h1 {
             text-align:center;
             font-size: $font-size + 8;
         }
         .aside__ul-li {
             a {
-                color: #51c4d3;
+                color: $celeste;
                 font-size: $font-size + 5;
             }
         }
@@ -247,7 +247,7 @@
     /* FOOTER */
     .footer {
         .footer__container {
-            color: #d8e3e7;
+            color: $claro;
             font-size: $font-size;
             align-items: center;
             justify-content: start;
@@ -264,7 +264,7 @@
 
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
     .sectionq1__container {
-        background-image: url(../../imagenes/william-dehoogh-OVbctIirb5Q-unsplash.jpg);
+        background-image: url(/imagenes/quienes-somos.jpg);
         background-position: center;
         background-size: cover;
         padding: 14rem 3rem;
@@ -311,23 +311,23 @@
         .sectionq2__container:hover{
             box-shadow: 1px 2px 6px rgba(14, 126, 167, 0.6);
             .sectionq2__h2:hover {
-                color: #126e82;
+                color: $azul;
             }
             .sectionq2__p:hover {
-                color: #126e82;
+                color: $azul;
             }
         }
     }
     /* ASIDE */
     .aside {
-        background-color: #126e82;
+        background-color: $azul;
         .aside__h1 {
             text-align:center;
             font-size: $font-size + 8;
         }
         .aside__ul-li {
             a {
-                color: #51c4d3;
+                color: $celeste;
                 font-size: $font-size + 5;
             }
         }
@@ -335,7 +335,7 @@
     /* FOOTER */
     .footer {
         .footer__container {
-            color: #d8e3e7;
+            color: $claro;
             font-size: $font-size;
             align-items: center;
             justify-content: start;
@@ -352,7 +352,7 @@
 
 @media only screen and (min-width: 1025px) and (max-device-width : 1224px) {
     .sectionq1__container {
-        background-image: url(../../imagenes/william-dehoogh-OVbctIirb5Q-unsplash.jpg);
+        background-image: url(/imagenes/quienes-somos.jpg);
         background-position: center;
         background-size: cover;
         padding: 18rem 3rem;
@@ -402,23 +402,23 @@
         .sectionq2__container:hover{
             box-shadow: 1px 2px 6px rgba(14, 126, 167, 0.6);
             .sectionq2__h2:hover {
-                color: #126e82;
+                color: $azul;
             }
             .sectionq2__p:hover {
-                color: #126e82;
+                color: $azul;
             }
         }
     }
         /* ASIDE */
     .aside {
-        background-color: #126e82;
+        background-color: $azul;
         .aside__h1 {
             text-align:center;
             font-size: $font-size * 2;
         }
         .aside__ul-li {
             a {
-                color: #51c4d3;
+                color: $celeste;
                 font-size: $font-size + 9;
             }
         }
@@ -426,7 +426,7 @@
     /* FOOTER */
     .footer {
         .footer__container {
-            color: #d8e3e7;
+            color: $claro;
             font-size: $font-size;
             align-items: center;
             justify-content: start;
@@ -443,7 +443,7 @@
 
 @media only screen and  (min-width: 1225px) {
         .sectionq1__container {
-        background-image: url(../../imagenes/william-dehoogh-OVbctIirb5Q-unsplash.jpg);
+        background-image: url(/imagenes/quienes-somos.jpg);
         background-position: center;
         background-size: cover;
         padding: 18rem 3rem;
@@ -493,23 +493,23 @@
         .sectionq2__container:hover{
             box-shadow: 1px 2px 6px rgba(14, 126, 167, 0.6);
             .sectionq2__h2:hover {
-                color: #126e82;
+                color: $azul;
             }
             .sectionq2__p:hover {
-                color: #126e82;
+                color: $azul;
             }
         }
     }
         /* ASIDE */
     .aside {
-    background-color: #126e82;
+    background-color: $azul;
         .aside__h1 {
             text-align:center;
             font-size: $font-size * 2;
         }
         .aside__ul-li {
             a {
-                color: #51c4d3;
+                color: $celeste;
                 font-size: $font-size * 2;
             }
         }
@@ -517,7 +517,7 @@
     /* FOOTER */
     .footer {
         .footer__container {
-            color: #d8e3e7;
+            color: $claro;
             font-size: $font-size;
             align-items: center;
             justify-content: start;

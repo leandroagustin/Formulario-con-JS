@@ -2,7 +2,7 @@
 /* Quienes Somos*/
 /* ARTICLE */
 .sectionq1__container {
-    background-image: url(../../imagenes/william-dehoogh-OVbctIirb5Q-unsplash.jpg);
+    background-image: url(/imagenes/quienes-somos.jpg);
     background-position: center;
     background-size: cover;
     padding: 18rem 3rem;
@@ -52,10 +52,10 @@
     .sectionq2__container:hover{
         box-shadow: 1px 2px 6px rgba(14, 126, 167, 0.6);
         .sectionq2__h2:hover {
-            color: #126e82;
+            color: $azul;
         }
         .sectionq2__p:hover {
-            color: #126e82;
+            color: $azul;
         }
     }
 }

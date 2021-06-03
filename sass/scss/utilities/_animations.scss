@@ -54,7 +54,7 @@
 }
 /* Contacto Formulario Titulo */
     .aparecer3 {
-    color:#126e82;
+    color:$azul;
     font-size: $font-size * 2;
     animation-name: mianimacion3;
     animation-duration: 2s;
@@ -93,32 +93,3 @@
         opacity: 1;
     }
 }
-
-/* Molino 1*/
-
-
-/* Molino 1*/
-/*
-.sectionnp-cuatro__molino2 {
-    display: block;
-    width: 120px;
-    height: 120px;
-    margin: -161px -687px;
-    animation: rotating 6s linear infinite;
-    position: absolute;
-    cursor: pointer;
-}
-@keyframes rotating {
-    from {
-        transform: rotate(0deg);
-    }
-    to {
-        transform: rotate(360deg);
-    }
-}
-.sectionnp-cuatro__molino2:hover {
-    animation: rotating 3s linear infinite;
-}
-.sectionnp-cuatro__molino2:active {
-    animation: rotating 1s linear infinite;
-} */

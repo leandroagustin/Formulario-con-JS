@@ -3,7 +3,7 @@ body {
 }
 /* HEADER */
 .nav {
-    background-color: #126e82;
+    background-color: $azul;
     .nav__svg {
         color: #ffffff;
         margin: 0 10px;
@@ -19,7 +19,7 @@ body {
         }
     }
     .nav__btn:active {
-            background-color: #0e5868;
+            background-color: $azul;
     }
 }
 
@@ -31,7 +31,7 @@ body {
     transition: all 0.3s;
 }
 .nav__a:hover {
-    color:#51c4d3;
+    color:$celeste;
 }
 .nav__ul {
     margin: 0 10px;

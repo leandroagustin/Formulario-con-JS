@@ -1,12 +1,12 @@
 /* ASIDE */
 .aside {
-    background-color: #126e82;
+    background-color: $azul;
     .aside__h1 {
-        color: #51c4d3;
+        color: $celeste;
     }
     .aside__ul-li {
         a {
-            color: #51c4d3;
+            color: $celeste;
             font-size: $font-size * 2;
             transition: transform .3s;
         }
