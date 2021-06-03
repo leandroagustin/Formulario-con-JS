@@ -38,8 +38,6 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
   font: inherit;
   vertical-align: baseline;
   outline: none;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif; }
 
@@ -2681,6 +2679,7 @@ body {
       .sectionq2 .sectionq2__container .sectionq2__img {
         display: flex;
         margin: auto;
+        -o-object-fit: cover;
         object-fit: cover; }
       .sectionq2 .sectionq2__container .sectionq2__h2 {
         text-align: center;
@@ -2742,6 +2741,7 @@ body {
       .sectionq2 .sectionq2__container .sectionq2__img {
         display: flex;
         margin: auto;
+        -o-object-fit: cover;
         object-fit: cover; }
       .sectionq2 .sectionq2__container .sectionq2__h2 {
         text-align: center;
@@ -2808,6 +2808,7 @@ body {
       .sectionq2 .sectionq2__container .sectionq2__img {
         display: flex;
         margin: auto;
+        -o-object-fit: cover;
         object-fit: cover; }
       .sectionq2 .sectionq2__container .sectionq2__h2 {
         text-align: center;
@@ -2874,6 +2875,7 @@ body {
       .sectionq2 .sectionq2__container .sectionq2__img {
         display: flex;
         margin: auto;
+        -o-object-fit: cover;
         object-fit: cover; }
       .sectionq2 .sectionq2__container .sectionq2__h2 {
         text-align: center;
@@ -2942,6 +2944,7 @@ body {
       .sectionq2 .sectionq2__container .sectionq2__img {
         display: flex;
         margin: auto;
+        -o-object-fit: cover;
         object-fit: cover; }
       .sectionq2 .sectionq2__container .sectionq2__h2 {
         text-align: center;
@@ -3011,6 +3014,7 @@ body {
       .sectionq2 .sectionq2__container .sectionq2__img {
         display: flex;
         margin: auto;
+        -o-object-fit: cover;
         object-fit: cover; }
       .sectionq2 .sectionq2__container .sectionq2__h2 {
         text-align: center;
@@ -3247,6 +3251,7 @@ body {
     .sectionc2 .sectionc2__content {
       display: flex;
       flex-direction: row;
+      flex-wrap: wrap;
       justify-content: space-around;
       align-items: center; }
       .sectionc2 .sectionc2__content .sectionc2__content-div {
@@ -4595,6 +4600,7 @@ body {
       .sectionq2 .sectionq2__container .sectionq2__img {
         display: flex;
         margin: auto;
+        -o-object-fit: cover;
         object-fit: cover; }
       .sectionq2 .sectionq2__container .sectionq2__h2 {
         text-align: center;
@@ -4656,6 +4662,7 @@ body {
       .sectionq2 .sectionq2__container .sectionq2__img {
         display: flex;
         margin: auto;
+        -o-object-fit: cover;
         object-fit: cover; }
       .sectionq2 .sectionq2__container .sectionq2__h2 {
         text-align: center;
@@ -4722,6 +4729,7 @@ body {
       .sectionq2 .sectionq2__container .sectionq2__img {
         display: flex;
         margin: auto;
+        -o-object-fit: cover;
         object-fit: cover; }
       .sectionq2 .sectionq2__container .sectionq2__h2 {
         text-align: center;
@@ -4788,6 +4796,7 @@ body {
       .sectionq2 .sectionq2__container .sectionq2__img {
         display: flex;
         margin: auto;
+        -o-object-fit: cover;
         object-fit: cover; }
       .sectionq2 .sectionq2__container .sectionq2__h2 {
         text-align: center;
@@ -4856,6 +4865,7 @@ body {
       .sectionq2 .sectionq2__container .sectionq2__img {
         display: flex;
         margin: auto;
+        -o-object-fit: cover;
         object-fit: cover; }
       .sectionq2 .sectionq2__container .sectionq2__h2 {
         text-align: center;
@@ -4925,6 +4935,7 @@ body {
       .sectionq2 .sectionq2__container .sectionq2__img {
         display: flex;
         margin: auto;
+        -o-object-fit: cover;
         object-fit: cover; }
       .sectionq2 .sectionq2__container .sectionq2__h2 {
         text-align: center;
@@ -6355,6 +6366,7 @@ body {
     .sectionc2 .sectionc2__content {
       display: flex;
       flex-direction: row;
+      flex-wrap: wrap;
       justify-content: space-around;
       align-items: center; }
       .sectionc2 .sectionc2__content .sectionc2__content-div {

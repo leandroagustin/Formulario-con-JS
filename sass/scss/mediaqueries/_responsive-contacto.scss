@@ -178,6 +178,7 @@
         .sectionc2__content {
             display: flex;
             flex-direction: row;
+            flex-wrap: wrap;
             justify-content: space-around;
             align-items: center;
             .sectionc2__content-div {
