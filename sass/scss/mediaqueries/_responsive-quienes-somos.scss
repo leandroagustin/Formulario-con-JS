@@ -15,7 +15,7 @@
         border-radius: 0;
         height: 535px;
         .sectionq1__h1 {
-            color: #ffffff;
+            color: $blanco;
             font-size: 30px;
             line-height: 1.2;
             font-weight: 200;
@@ -96,7 +96,7 @@
         border-radius: 0;
         height: 535px;
         .sectionq1__h1 {
-            color: #ffffff;
+            color: $blanco;
             font-size: 30px;
             line-height: 1.2;
             font-weight: 200;
@@ -185,7 +185,7 @@
         border-radius: 0;
         height: 535px;
         .sectionq1__h1 {
-            color: #ffffff;
+            color: $blanco;
             font-size: 30px;
             line-height: 1.2;
             font-weight: 200;
@@ -274,7 +274,7 @@
         border-radius: 0;
         height: 535px;
         .sectionq1__h1 {
-            color: #ffffff;
+            color: $blanco;
             font-size: 30px;
             line-height: 1.2;
             font-weight: 200;
@@ -363,7 +363,7 @@
         border-radius: 0;
         height: 735px;
         .sectionq1__h1 {
-            color: #ffffff;
+            color: $blanco;
             font-size: 50px;
             line-height: 1.2;
             font-weight: 200;
@@ -455,7 +455,7 @@
         border-radius: 0;
         height: 735px;
         .sectionq1__h1 {
-            color: #ffffff;
+            color: $blanco;
             font-size: 50px;
             line-height: 1.2;
             font-weight: 200;
@@ -506,34 +506,41 @@
             }
         }
     }
-        /* ASIDE */
+    /* ASIDE */
     .aside {
-    background-color: $azul;
+        background-color: $azul;
+        color: $blanco;
         .aside__h1 {
-            text-align:center;
-            font-size: $font-size * 2;
+            color: $blanco;
         }
         .aside__ul-li {
             a {
-                color: $celeste;
+                color: $blanco;
                 font-size: $font-size * 2;
+                transition: transform .3s;
+                i {
+                    color: $blanco;
+                }
+            }
+            a:hover {
+                transform:scale(1.3)
             }
         }
     }
-    /* FOOTER */
     .footer {
+    background-color: $azul;
         .footer__container {
-            color: $claro;
             font-size: $font-size;
-            align-items: center;
-            justify-content: start;
+            align-items: end;
+            justify-content: end;
             .footer__h5 {
+                color: $blanco;
                 text-align: center;
-                margin-left: 0;
             }
             .footer__h6 {
-                text-align: center;
+                color: $blanco;
+                text-align: end;
             }
         }
-    }
+}
 }

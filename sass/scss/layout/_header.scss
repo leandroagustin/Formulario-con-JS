@@ -1,37 +1,42 @@
 body {
-    background-color: #ffffff;
+    background-color: $blanco;
 }
 /* HEADER */
-.nav {
-    background-color: $azul;
+.nav__1 {
+    background-image: linear-gradient( 109.6deg,  rgba(62,161,219,1) 11.2%, rgba(93,52,236,1) 100.2% );
     .nav__svg {
-        color: #ffffff;
+        color: $blanco;
         margin: 0 10px;
     }
     .nav__a--size {
         font-size: $font-size + 9;
-        color: #ffffff;
+        color: $blanco;
+        margin: 0;
     }
     .nav__btn {
-        border-color: #ffffff;
+        border-color: $blanco;
         .nav__i {
-            color: #ffffff;
+            color: $blanco;
         }
     }
     .nav__btn:active {
-            background-color: $azul;
+            background-color: #5d34ec;
     }
 }
 
 .nav__a {
-    color: #ffffff;
+    color: $blanco;
     font-size: $font-size + 4;
     margin: 2px 10px;
     padding: 10px 10px;
-    transition: all 0.3s;
+    border-radius: 15px;
+    transition: 0.3s;
+    
 }
 .nav__a:hover {
-    color:$celeste;
+    color:$blanco;
+    background-color: $azul-fuerte;
+    border-radius: 15px;
 }
 .nav__ul {
     margin: 0 10px;
