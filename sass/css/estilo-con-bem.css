@@ -268,7 +268,7 @@ body {
       display: none; }
   .section-cinco__container {
     background: black;
-    background: linear-gradient(0deg, black 0%, #5d34ec 100%);
+    background: linear-gradient(0deg, black 0%, #5d34ec 0%, rgba(93, 52, 236, 0.78195) 82%);
     justify-content: center;
     padding-top: 60px;
     font-size: 12px;
