@@ -15,7 +15,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/62ea397d3a.js" crossorigin="anonymous"></script>
     <!-- Bootstrap -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css"
+        integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
     <!-- Mi CSS -->
     <link rel="stylesheet" type="text/css" href="/sass/css/estilo-con-bem.css">
 </head>
@@ -23,45 +24,47 @@
 <body class="container-fluid">
     <!-- Header -->
     <header class="row">
-        <nav class="nav navbar navbar-expand-lg p-3 shadow-sm fixed-top p-container-3">
-            <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor"
-                class="nav__svg bi bi-compass" viewBox="0 0 16 16">
+        <nav class="nav__1 nav navbar navbar-expand-lg p-3 shadow-sm fixed-top p-container-3" id="page-top">
+            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="28" fill="currentColor"
+                class="text-light nav__svg bi bi-compass" viewBox="0 0 16 16">
                 <path
                     d="M8 16.016a7.5 7.5 0 0 0 1.962-14.74A1 1 0 0 0 9 0H7a1 1 0 0 0-.962 1.276A7.5 7.5 0 0 0 8 16.016zm6.5-7.5a6.5 6.5 0 1 1-13 0 6.5 6.5 0 0 1 13 0z" />
                 <path d="m6.94 7.44 4.95-2.83-2.83 4.95-4.949 2.83 2.828-4.95z" />
             </svg>
-            <a class="nav__a--size navbar-brand active" href="/index.html">
+            <a class="nav__a--size navbar-brand active" href="index.html">
                 MolinoSur
             </a>
             <button class="nav__btn navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span><i class="nav__i fas fa-bars"></i></span>
+                <span>
+                    <i class="nav__i fas fa-bars"></i>
+                </span>
             </button>
     
             <div class="nav__container collapse navbar-collapse" id="navbarNav">
                 <ul class="nav__ul navbar-nav ml-auto">
                     <li class="nav__li nav-item active">
-                        <a class="nav__a nav-link" href="/index.html">
+                        <a class="nav__a nav-link" href="../index.html">
                             Inicio
                         </a>
                     </li>
                     <li class="nav__li nav-item active">
-                        <a class="nav__a nav-link" href="/assets/energia-eolica.html">
+                        <a class="nav__a nav-link" href="./energia-eolica.html">
                             Energia Eolica
                         </a>
                     </li>
                     <li class="nav__li nav-item active">
-                        <a class="nav__a nav-link" href="/assets/quienes-somos.html">
+                        <a class="nav__a nav-link" href="./quienes-somos.html">
                             Quienes Somos
                         </a>
                     </li>
                     <li class="nav__li nav-item active">
-                        <a class="nav__a nav-link" href="/assets/nuestros-productos.html">
+                        <a class="nav__a nav-link" href="./nuestros-productos.html">
                             Nuestros Productos
                         </a>
                     </li>
                     <li class="nav__li nav-item active">
-                        <a class="nav__a nav-link" href="/assets/contacto.html">
+                        <a class="nav__a nav-link" href="./contacto.html">
                             Contacto
                         </a>
                     </li>
@@ -71,6 +74,34 @@
     </header>
 
     <article>
+        <div class="modal-container1" tabindex="-1">
+            <div class="modal-dialog modal1">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        
+                    </div>
+                    <div class="modal-body divParrafoAlert">
+                    </div>
+                    <div class="modal-footer">
+                        <button id="cerrar" type="button" class="btn btn-primary" data-dismiss="modal">Entendido</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Modal2 - Formulario enviado con Exito-->
+        <div class="modal-container">
+            <div class="modal modal-close">
+                <p class="close">X</p>
+                <img src="../imagenes/contacto.svg" alt="formulario completado">
+                <div class="modal-textos">
+                    <h2 class="h5"></h2>
+                    <hr>
+                    <p class="h5">A la brevedad nos comunicaremos con usted. ¡Muchas gracias!
+                    </p>
+                </div>
+            </div>
+        </div>
+        
         <section class="sectionc1 row">
             <div class="sectionc1__container">
                 <h1 class="sectionc1__h1 aparecer3 text-center pt-5">
@@ -80,54 +111,54 @@
                     Podrá realizar sus consultas o solicitar información de la Cámara, a través de nuestros datos de contacto
                     como también a través del siguiente formulario y a la brevedad nos comunicaremos con usted. ¡Muchas gracias!
                 </p>
-                <form class="sectionc1__form">
+                <form class="sectionc1__form" autocomplete="off">
                     <div class="form-row">
-                        <div class="form-group col-xs-6">
-                            <label for="inputEmail4">
+                        <div class="form-group col-xs-6" id="labelNombre">
+                            <label for="nombre">
                                 Nombre
                             </label>
-                            <input type="text" class="form-control" id="inputEmail4"
+                            <input type="text" class="form-control formulario-input" id="nombre"
                             name="nombre" required placeholder="Nombre">
                         </div>
-                        <div class="form-group col-xs-6">
-                            <label for="inputPassword4">
+                        <div class="form-group col-xs-6" id="labelApellido">
+                            <label for="apellido">
                                 Apellido
                             </label>
-                            <input type="text" class="form-control" id="inputPassword4"
+                            <input type="text" class="form-control formulario-input" id="apellido"
                             name="apellido" required placeholder="Apellido">
                         </div>
                     </div>
-                    <div class="form-group">
-                        <label for="inputAddress">
+                    <div class="form-group" id="labelEmail">
+                        <label for="email">
                             Correo electronico</label>
-                        <input type="email" class="form-control" id="inputAddress" placeholder="usuario@hotmail.com" 
+                        <input type="email" class="form-control formulario-input" id="email" placeholder="usuario@hotmail.com"
                         name="email" required>
                     </div>
                     <div class="form-row">
                         <div class="form-group col-xs-4">
-                            <label for="inputState">
+                            <label for="ciudad">
                                 Ciudad
                             </label>
-                            <select id="inputState" class="form-control" name="Ciudades">
+                            <select id="ciudad" class="form-control" name="Ciudades">
                                 <option selected>
                                     Mi ciudad...
                                 </option>
-                                <option value="1">
+                                <option value="Puerto Madryn">
                                     Puerto Madryn
                                 </option>
-                                <option value="2">
+                                <option value="Comodoro Rivadavia">
                                     Comodoro Rivadavia
                                 </option>
-                                <option value="3">
+                                <option value="Trelew">
                                     Trelew
                                 </option>
-                                <option value="4">
+                                <option value="Rawson">
                                     Rawson
                                 </option>
-                                <option value="5">
+                                <option value="Gaiman">
                                     Gaiman
                                 </option>
-                                <option value="6">
+                                <option value="Dolavon">
                                     Dolavon
                                 </option>
                             </select>
@@ -135,21 +166,22 @@
                     </div>
                     <div class="form-group">
                         <div class="form-check">
-                            <input class="form-check-input" type="checkbox" id="gridCheck">
-                            <label class="form-check-label mt-2" for="gridCheck" name="aceptar" value="1">
-                                Recuérdame
+                            <input class="form-check-input ml-1" type="checkbox" id="recuerdame">
+                            <label class="form-check-label mt-2" for="recuerdame" name="aceptar">
+                                SELECCIONA PARA ESTAR ENTERAD@ DE TODAS NUESTRAS NOVEDADES!
                             </label>
                         </div>
                     </div>
-                    <div class="form-floating">
-                        <textarea class="sectionc1__textarea form-control" placeholder="Escriba su consulta..." id="floatingTextarea2"
+                    <div class="form-floating" id="labelConsulta">
+                        <textarea class="sectionc1__textarea form-control" placeholder="Escriba su consulta..." id="consulta"
                         style="height: 100px"></textarea>
                     </div>
                     <div class="text-center">
-                        <input class="sectionc1__btn mt-3 btn" type="submit" value="Enviar mi consulta">
-                        <input class="sectionc1__btn mt-3 btn" type="reset" value="Limpiar formulario">
+                        <input class="sectionc1__btn mt-3 btn" type="submit" value="Enviar mi consulta" id="btnEnviar">
+                        <input class="sectionc1__btn mt-3 btn" type="reset" value="Limpiar formulario" id="btnLimpiar">
                     </div>
                 </form>
+
             </div>
         </section>
 
@@ -236,16 +268,17 @@
             </h6>
         </div>
     </footer>
-            <!-- JavaScript-->
-            <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-                integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
-                </script>
-            <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
-                integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
-                </script>
-            <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js"
-                integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous">
-                </script>
+            <!-- Jquery-->
+            <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"
+                integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4"
+                crossorigin="anonymous"></script>
+                <!-- Bootstrap-->
+            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js"
+                integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1"
+                crossorigin="anonymous"></script>
+                <!-- Archivo js contacto-->
+                <script src="../js/contacto.js"></script>
             </body>
             
             </html>

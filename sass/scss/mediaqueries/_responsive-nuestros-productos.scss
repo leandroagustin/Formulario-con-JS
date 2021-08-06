@@ -6,6 +6,93 @@
 /* Smartphones (portrait and landscape) */
 @media only screen and (min-width : 330px) and (max-width : 480px) {
     /* Nuestros Productos */
+
+        .hidden { 
+        overflow: hidden;
+    }
+    .centrar {
+        height: 100vh;
+        background-color: #000;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    @keyframes ldio-70aql7lzqk {
+                0% {
+                    transform: rotate(0deg)
+                }
+        
+                50% {
+                    transform: rotate(22.5deg)
+                }
+        
+                100% {
+                    transform: rotate(45deg)
+                }
+            }
+        
+            .ldio-70aql7lzqk>div {
+                transform-origin: 100px 100px;
+                animation: ldio-70aql7lzqk 0.2s infinite linear;
+            }
+        
+            .ldio-70aql7lzqk>div div {
+                position: absolute;
+                width: 22px;
+                height: 152px;
+                background: #3b4368;
+                left: 100px;
+                top: 100px;
+                transform: translate(-50%, -50%);
+            }
+        
+            .ldio-70aql7lzqk>div div:nth-child(1) {
+                width: 120px;
+                height: 120px;
+                border-radius: 50%;
+            }
+        
+            .ldio-70aql7lzqk>div div:nth-child(6) {
+                width: 80px;
+                height: 80px;
+                background: #f1f2f3;
+                border-radius: 50%;
+            }
+        
+            .ldio-70aql7lzqk>div div:nth-child(3) {
+                transform: translate(-50%, -50%) rotate(45deg)
+            }
+        
+            .ldio-70aql7lzqk>div div:nth-child(4) {
+                transform: translate(-50%, -50%) rotate(90deg)
+            }
+        
+            .ldio-70aql7lzqk>div div:nth-child(5) {
+                transform: translate(-50%, -50%) rotate(135deg)
+            }
+        
+            .loadingio-spinner-gear-nrcikbuidk {
+                width: 200px;
+                height: 200px;
+                display: inline-block;
+                overflow: hidden;
+                background: #f1f2f3;
+            }
+        
+            .ldio-70aql7lzqk {
+                width: 100%;
+                height: 100%;
+                position: relative;
+                transform: translateZ(0) scale(1);
+                backface-visibility: hidden;
+                transform-origin: 0 0;
+                /* see note above */
+            }
+        
+            .ldio-70aql7lzqk div {
+                box-sizing: content-box;
+            }
+
 /* ARTICLE */
     .sectionnp-uno__container {
         background-image: url(/imagenes/nuestros-productos.jpg);
@@ -202,6 +289,93 @@
 }
 
 @media only screen and (min-device-width : 480px) and (max-width : 767px) {
+
+        .hidden { 
+        overflow: hidden;
+    }
+    .centrar {
+        height: 100vh;
+        background-color: #000;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    @keyframes ldio-70aql7lzqk {
+                0% {
+                    transform: rotate(0deg)
+                }
+        
+                50% {
+                    transform: rotate(22.5deg)
+                }
+        
+                100% {
+                    transform: rotate(45deg)
+                }
+            }
+        
+            .ldio-70aql7lzqk>div {
+                transform-origin: 100px 100px;
+                animation: ldio-70aql7lzqk 0.2s infinite linear;
+            }
+        
+            .ldio-70aql7lzqk>div div {
+                position: absolute;
+                width: 22px;
+                height: 152px;
+                background: #3b4368;
+                left: 100px;
+                top: 100px;
+                transform: translate(-50%, -50%);
+            }
+        
+            .ldio-70aql7lzqk>div div:nth-child(1) {
+                width: 120px;
+                height: 120px;
+                border-radius: 50%;
+            }
+        
+            .ldio-70aql7lzqk>div div:nth-child(6) {
+                width: 80px;
+                height: 80px;
+                background: #f1f2f3;
+                border-radius: 50%;
+            }
+        
+            .ldio-70aql7lzqk>div div:nth-child(3) {
+                transform: translate(-50%, -50%) rotate(45deg)
+            }
+        
+            .ldio-70aql7lzqk>div div:nth-child(4) {
+                transform: translate(-50%, -50%) rotate(90deg)
+            }
+        
+            .ldio-70aql7lzqk>div div:nth-child(5) {
+                transform: translate(-50%, -50%) rotate(135deg)
+            }
+        
+            .loadingio-spinner-gear-nrcikbuidk {
+                width: 200px;
+                height: 200px;
+                display: inline-block;
+                overflow: hidden;
+                background: #f1f2f3;
+            }
+        
+            .ldio-70aql7lzqk {
+                width: 100%;
+                height: 100%;
+                position: relative;
+                transform: translateZ(0) scale(1);
+                backface-visibility: hidden;
+                transform-origin: 0 0;
+                /* see note above */
+            }
+        
+            .ldio-70aql7lzqk div {
+                box-sizing: content-box;
+            }
+
     .sectionnp-uno__container {
         background-image: url(/imagenes/nuestros-productos.jpg);
         background-position: center;
@@ -398,6 +572,93 @@
 
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
     .sectionnp-uno__container {
+
+            .hidden { 
+        overflow: hidden;
+    }
+    .centrar {
+        height: 100vh;
+        background-color: #000;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    @keyframes ldio-70aql7lzqk {
+                0% {
+                    transform: rotate(0deg)
+                }
+        
+                50% {
+                    transform: rotate(22.5deg)
+                }
+        
+                100% {
+                    transform: rotate(45deg)
+                }
+            }
+        
+            .ldio-70aql7lzqk>div {
+                transform-origin: 100px 100px;
+                animation: ldio-70aql7lzqk 0.2s infinite linear;
+            }
+        
+            .ldio-70aql7lzqk>div div {
+                position: absolute;
+                width: 22px;
+                height: 152px;
+                background: #3b4368;
+                left: 100px;
+                top: 100px;
+                transform: translate(-50%, -50%);
+            }
+        
+            .ldio-70aql7lzqk>div div:nth-child(1) {
+                width: 120px;
+                height: 120px;
+                border-radius: 50%;
+            }
+        
+            .ldio-70aql7lzqk>div div:nth-child(6) {
+                width: 80px;
+                height: 80px;
+                background: #f1f2f3;
+                border-radius: 50%;
+            }
+        
+            .ldio-70aql7lzqk>div div:nth-child(3) {
+                transform: translate(-50%, -50%) rotate(45deg)
+            }
+        
+            .ldio-70aql7lzqk>div div:nth-child(4) {
+                transform: translate(-50%, -50%) rotate(90deg)
+            }
+        
+            .ldio-70aql7lzqk>div div:nth-child(5) {
+                transform: translate(-50%, -50%) rotate(135deg)
+            }
+        
+            .loadingio-spinner-gear-nrcikbuidk {
+                width: 200px;
+                height: 200px;
+                display: inline-block;
+                overflow: hidden;
+                background: #f1f2f3;
+            }
+        
+            .ldio-70aql7lzqk {
+                width: 100%;
+                height: 100%;
+                position: relative;
+                transform: translateZ(0) scale(1);
+                backface-visibility: hidden;
+                transform-origin: 0 0;
+                /* see note above */
+            }
+        
+            .ldio-70aql7lzqk div {
+                box-sizing: content-box;
+            }
+
         background-image: url(/imagenes/nuestros-productos.jpg);
         background-position: center;
         background-size: cover;
@@ -593,6 +854,94 @@
 
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
     .sectionnp-uno__container {
+
+            .hidden { 
+        overflow: hidden;
+    }
+    .centrar {
+        height: 100vh;
+        background-color: #000;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    @keyframes ldio-70aql7lzqk {
+                0% {
+                    transform: rotate(0deg)
+                }
+        
+                50% {
+                    transform: rotate(22.5deg)
+                }
+        
+                100% {
+                    transform: rotate(45deg)
+                }
+            }
+        
+            .ldio-70aql7lzqk>div {
+                transform-origin: 100px 100px;
+                animation: ldio-70aql7lzqk 0.2s infinite linear;
+            }
+        
+            .ldio-70aql7lzqk>div div {
+                position: absolute;
+                width: 22px;
+                height: 152px;
+                background: #3b4368;
+                left: 100px;
+                top: 100px;
+                transform: translate(-50%, -50%);
+            }
+        
+            .ldio-70aql7lzqk>div div:nth-child(1) {
+                width: 120px;
+                height: 120px;
+                border-radius: 50%;
+            }
+        
+            .ldio-70aql7lzqk>div div:nth-child(6) {
+                width: 80px;
+                height: 80px;
+                background: #f1f2f3;
+                border-radius: 50%;
+            }
+        
+            .ldio-70aql7lzqk>div div:nth-child(3) {
+                transform: translate(-50%, -50%) rotate(45deg)
+            }
+        
+            .ldio-70aql7lzqk>div div:nth-child(4) {
+                transform: translate(-50%, -50%) rotate(90deg)
+            }
+        
+            .ldio-70aql7lzqk>div div:nth-child(5) {
+                transform: translate(-50%, -50%) rotate(135deg)
+            }
+        
+            .loadingio-spinner-gear-nrcikbuidk {
+                width: 200px;
+                height: 200px;
+                display: inline-block;
+                overflow: hidden;
+                background: #f1f2f3;
+            }
+        
+            .ldio-70aql7lzqk {
+                width: 100%;
+                height: 100%;
+                position: relative;
+                transform: translateZ(0) scale(1);
+                backface-visibility: hidden;
+                transform-origin: 0 0;
+                /* see note above */
+            }
+        
+            .ldio-70aql7lzqk div {
+                box-sizing: content-box;
+            }
+
+
         background-image: url(/imagenes/nuestros-productos.jpg);
         background-position: center;
         background-size: cover;
@@ -787,6 +1136,93 @@
 }
 
 @media only screen and (min-width: 1025px) and (max-device-width : 1224px) {
+
+        .hidden { 
+        overflow: hidden;
+    }
+    .centrar {
+        height: 100vh;
+        background-color: #000;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    @keyframes ldio-70aql7lzqk {
+                0% {
+                    transform: rotate(0deg)
+                }
+        
+                50% {
+                    transform: rotate(22.5deg)
+                }
+        
+                100% {
+                    transform: rotate(45deg)
+                }
+            }
+        
+            .ldio-70aql7lzqk>div {
+                transform-origin: 100px 100px;
+                animation: ldio-70aql7lzqk 0.2s infinite linear;
+            }
+        
+            .ldio-70aql7lzqk>div div {
+                position: absolute;
+                width: 22px;
+                height: 152px;
+                background: #3b4368;
+                left: 100px;
+                top: 100px;
+                transform: translate(-50%, -50%);
+            }
+        
+            .ldio-70aql7lzqk>div div:nth-child(1) {
+                width: 120px;
+                height: 120px;
+                border-radius: 50%;
+            }
+        
+            .ldio-70aql7lzqk>div div:nth-child(6) {
+                width: 80px;
+                height: 80px;
+                background: #f1f2f3;
+                border-radius: 50%;
+            }
+        
+            .ldio-70aql7lzqk>div div:nth-child(3) {
+                transform: translate(-50%, -50%) rotate(45deg)
+            }
+        
+            .ldio-70aql7lzqk>div div:nth-child(4) {
+                transform: translate(-50%, -50%) rotate(90deg)
+            }
+        
+            .ldio-70aql7lzqk>div div:nth-child(5) {
+                transform: translate(-50%, -50%) rotate(135deg)
+            }
+        
+            .loadingio-spinner-gear-nrcikbuidk {
+                width: 200px;
+                height: 200px;
+                display: inline-block;
+                overflow: hidden;
+                background: #f1f2f3;
+            }
+        
+            .ldio-70aql7lzqk {
+                width: 100%;
+                height: 100%;
+                position: relative;
+                transform: translateZ(0) scale(1);
+                backface-visibility: hidden;
+                transform-origin: 0 0;
+                /* see note above */
+            }
+        
+            .ldio-70aql7lzqk div {
+                box-sizing: content-box;
+            }
+
     .sectionnp-uno__container {
         background-image: url(/imagenes/nuestros-productos.jpg);
         background-position: center;
@@ -983,6 +1419,93 @@
 }
 
 @media only screen and  (min-width: 1225px) and (max-width: 1440px) {
+
+    .hidden { 
+        overflow: hidden;
+    }
+    .centrar {
+        height: 100vh;
+        background-color: #000;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    @keyframes ldio-70aql7lzqk {
+                0% {
+                    transform: rotate(0deg)
+                }
+        
+                50% {
+                    transform: rotate(22.5deg)
+                }
+        
+                100% {
+                    transform: rotate(45deg)
+                }
+            }
+        
+            .ldio-70aql7lzqk>div {
+                transform-origin: 100px 100px;
+                animation: ldio-70aql7lzqk 0.2s infinite linear;
+            }
+        
+            .ldio-70aql7lzqk>div div {
+                position: absolute;
+                width: 22px;
+                height: 152px;
+                background: #3b4368;
+                left: 100px;
+                top: 100px;
+                transform: translate(-50%, -50%);
+            }
+        
+            .ldio-70aql7lzqk>div div:nth-child(1) {
+                width: 120px;
+                height: 120px;
+                border-radius: 50%;
+            }
+        
+            .ldio-70aql7lzqk>div div:nth-child(6) {
+                width: 80px;
+                height: 80px;
+                background: #f1f2f3;
+                border-radius: 50%;
+            }
+        
+            .ldio-70aql7lzqk>div div:nth-child(3) {
+                transform: translate(-50%, -50%) rotate(45deg)
+            }
+        
+            .ldio-70aql7lzqk>div div:nth-child(4) {
+                transform: translate(-50%, -50%) rotate(90deg)
+            }
+        
+            .ldio-70aql7lzqk>div div:nth-child(5) {
+                transform: translate(-50%, -50%) rotate(135deg)
+            }
+        
+            .loadingio-spinner-gear-nrcikbuidk {
+                width: 200px;
+                height: 200px;
+                display: inline-block;
+                overflow: hidden;
+                background: #f1f2f3;
+            }
+        
+            .ldio-70aql7lzqk {
+                width: 100%;
+                height: 100%;
+                position: relative;
+                transform: translateZ(0) scale(1);
+                backface-visibility: hidden;
+                transform-origin: 0 0;
+                /* see note above */
+            }
+        
+            .ldio-70aql7lzqk div {
+                box-sizing: content-box;
+            }
+
     .sectionnp-uno__container {
         background-image: url(/imagenes/nuestros-productos.jpg);
         background-position: center;
@@ -1024,10 +1547,17 @@
         }
     }
 
+    #sectionProductos {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
+
     .sectionnp-dos__container-2 {
-        justify-content:space-evenly;
+        justify-content: space-evenly;
         .sectionnp-dos__content {
-            margin: 5px 0;
+            margin: 5px 5px;
             background-color: $celeste;
             border: 2px solid $celeste;
             border-radius: 15px;
@@ -1178,6 +1708,93 @@
 }
 
 @media only screen and  (min-width: 1441px) and (max-width: 1778px) {
+
+    .desaparecer { 
+        overflow: hidden;
+    }
+    .centrar {
+        height: 100vh;
+        background-color: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    @keyframes ldio-70aql7lzqk {
+                0% {
+                    transform: rotate(0deg)
+                }
+        
+                50% {
+                    transform: rotate(22.5deg)
+                }
+        
+                100% {
+                    transform: rotate(45deg)
+                }
+            }
+        
+            .ldio-70aql7lzqk>div {
+                transform-origin: 100px 100px;
+                animation: ldio-70aql7lzqk 0.2s infinite linear;
+            }
+        
+            .ldio-70aql7lzqk>div div {
+                position: absolute;
+                width: 22px;
+                height: 152px;
+                background: #3b4368;
+                left: 100px;
+                top: 100px;
+                transform: translate(-50%, -50%);
+            }
+        
+            .ldio-70aql7lzqk>div div:nth-child(1) {
+                width: 120px;
+                height: 120px;
+                border-radius: 50%;
+            }
+        
+            .ldio-70aql7lzqk>div div:nth-child(6) {
+                width: 80px;
+                height: 80px;
+                background: #f1f2f3;
+                border-radius: 50%;
+            }
+        
+            .ldio-70aql7lzqk>div div:nth-child(3) {
+                transform: translate(-50%, -50%) rotate(45deg)
+            }
+        
+            .ldio-70aql7lzqk>div div:nth-child(4) {
+                transform: translate(-50%, -50%) rotate(90deg)
+            }
+        
+            .ldio-70aql7lzqk>div div:nth-child(5) {
+                transform: translate(-50%, -50%) rotate(135deg)
+            }
+        
+            .loadingio-spinner-gear-nrcikbuidk {
+                width: 200px;
+                height: 200px;
+                display: inline-block;
+                overflow: hidden;
+                background: #f1f2f3;
+            }
+        
+            .ldio-70aql7lzqk {
+                width: 100%;
+                height: 100%;
+                position: relative;
+                transform: translateZ(0) scale(1);
+                backface-visibility: hidden;
+                transform-origin: 0 0;
+                /* see note above */
+            }
+        
+            .ldio-70aql7lzqk div {
+                box-sizing: content-box;
+            }
+
     .sectionnp-uno__container {
     background-image: url(/imagenes/nuestros-productos.jpg);
     background-position: center;
@@ -1219,10 +1836,19 @@
         }
     }
 
+    
+    #sectionProductos {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
+
     .sectionnp-dos__container-2 {
         justify-content:space-evenly;
+        margin: inherit;
         .sectionnp-dos__content {
-            margin: 5px 0;
+            margin: 5px 10px;
             background-color: $celeste;
             border: 2px solid $celeste;
             border-radius: 15px;
@@ -1415,6 +2041,94 @@
 }
 
 @media only screen and  (min-width: 1779px) {
+
+    .desaparece { 
+        overflow: hidden;
+    }
+    .centrar {
+        height: 100vh;
+        background-color: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    @keyframes ldio-70aql7lzqk {
+                0% {
+                    transform: rotate(0deg)
+                }
+        
+                50% {
+                    transform: rotate(22.5deg)
+                }
+        
+                100% {
+                    transform: rotate(45deg)
+                }
+            }
+        
+            .ldio-70aql7lzqk>div {
+                transform-origin: 100px 100px;
+                animation: ldio-70aql7lzqk 0.2s infinite linear;
+            }
+        
+            .ldio-70aql7lzqk>div div {
+                position: absolute;
+                width: 22px;
+                height: 152px;
+                background: #3b4368;
+                left: 100px;
+                top: 100px;
+                transform: translate(-50%, -50%);
+            }
+        
+            .ldio-70aql7lzqk>div div:nth-child(1) {
+                width: 120px;
+                height: 120px;
+                border-radius: 50%;
+            }
+        
+            .ldio-70aql7lzqk>div div:nth-child(6) {
+                width: 80px;
+                height: 80px;
+                background: #f1f2f3;
+                border-radius: 50%;
+            }
+        
+            .ldio-70aql7lzqk>div div:nth-child(3) {
+                transform: translate(-50%, -50%) rotate(45deg)
+            }
+        
+            .ldio-70aql7lzqk>div div:nth-child(4) {
+                transform: translate(-50%, -50%) rotate(90deg)
+            }
+        
+            .ldio-70aql7lzqk>div div:nth-child(5) {
+                transform: translate(-50%, -50%) rotate(135deg)
+            }
+        
+            .loadingio-spinner-gear-nrcikbuidk {
+                width: 200px;
+                height: 200px;
+                display: inline-block;
+                overflow: hidden;
+                background: #f1f2f3;
+            }
+        
+            .ldio-70aql7lzqk {
+                width: 100%;
+                height: 100%;
+                position: relative;
+                transform: translateZ(0) scale(1);
+                backface-visibility: hidden;
+                transform-origin: 0 0;
+                /* see note above */
+            }
+        
+            .ldio-70aql7lzqk div {
+                box-sizing: content-box;
+            }
+            
     .sectionnp-uno__container {
     background-image: url(/imagenes/nuestros-productos.jpg);
     background-position: center;
@@ -1456,10 +2170,18 @@
         }
     }
 
+    
+    #sectionProductos {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
+
     .sectionnp-dos__container-2 {
         justify-content:space-evenly;
         .sectionnp-dos__content {
-            margin: 5px 0;
+            margin: 5px 10px;
             background-color: $celeste;
             border: 2px solid $celeste;
             border-radius: 15px;

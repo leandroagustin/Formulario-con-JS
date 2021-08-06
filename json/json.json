@@ -1,0 +1,10 @@
+[
+    { "titulo": "Material:", "descripcion": "Fundicion de alumnio con recubrimiento anticorrosivo. Fibra de carbono reforzado con plástico.", "ficha": "equipo", "svg": "fas fa-tools" },
+    { "titulo": "Medidas y peso:", "descripcion": "Ancho: 150mm. Peso: 15Kg. Diámetro del rotor: 1.85m.", "ficha": "equipo", "svg": "fas fa-weight" },
+    { "titulo": "Voltaje y Potencia:", "descripcion": "Voltaje: 24V. Salida nominal: 600 W.", "ficha": "equipo", "svg": "fas fa-bolt" },
+    { "titulo": "Protecciones:", "descripcion": "Protección de Sobre-descarga, Apagado: 22V. Protección de Sobre-descarga, Recuperación: 24V. Protección de tensión de salida: 2V.", "ficha": "controlador", "svg": "fas fa-shield-alt" },
+    { "titulo": "Medidas y peso:", "descripcion": "Largo: 142mm. Altura: 80mm. Peso: 1.9kg.", "ficha": "controlador", "svg": "fas fa-weight" },
+    { "titulo": "Voltaje:", "descripcion": "Descargue Voltaje: 28V. PV Voltaje Automático Control de luz – OFF: 3V. PV Voltaje Automático Control de luz – ON: 2V.", "ficha": "controlador", "svg": "fas fa-bolt" },
+    { "titulo": "Potencia:", "descripcion": "Nominal del viento Turbine Power: 600W. Solar fotovoltaica de energía: 300W", "ficha": "controlador", "svg": "fas fa-wind" },
+    {"titulo": "Velocidad:", "descripcion": "Corte en la velocidad del viento: 2 m/s (5 mph). Frenado de exceso de velocidad: Freno electromagnético. Velocidad máxima del viento: 45 m/s (90 mph)." , "ficha": "equipo", "svg": "fas fa-tachometer-alt"}
+]
